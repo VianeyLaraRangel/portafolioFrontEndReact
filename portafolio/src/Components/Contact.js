@@ -8,4 +8,4 @@ class Contact  extends Component {
     }
 }
 
-export default Contacto;
+export default Contact;
