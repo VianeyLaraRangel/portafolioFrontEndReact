@@ -1,0 +1,11 @@
+@media screen and (max-width: 1024px) {
+    .mdl-layout__header {
+        background-color: #9f9f9f !important;
+        display: block !important;
+        color: rgba(0, 0, 0, 0.5) !important;
+    }
+    
+    .mdl-navigation__link {
+        display: none !important;
+    }
+}
