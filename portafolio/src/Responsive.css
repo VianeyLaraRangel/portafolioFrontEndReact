@@ -1,5 +1,6 @@
 /*Responsive web design(Media queries: Tablet & mobile)*/
 @media screen and (max-width: 1024px) {
+    /*Navbar header styles*/
     .mdl-layout__header {
         background-color: #9f9f9f !important;
         display: block !important;
@@ -9,7 +10,7 @@
     .mdl-navigation__link {
         display: none !important;
     }
-
+    
     .mdl-layout-title, .material-icons {
         color: white;
     }
@@ -23,5 +24,14 @@
         width: 11rem;
         display: block;
     }
-    
+
+    /*LandingView styles*/
+    .avatar-img {
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    }
 }

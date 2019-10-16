@@ -21,7 +21,6 @@ body {
 
 
 /*Navbar header styles*/
-
 .header-color {
     background: linear-gradient(to top, #e03c31, #e03c31);
 }
@@ -30,9 +29,8 @@ body {
     font-family: 'Oswald', sans-serif !important;
 }
 
-.mdl-navigation__link {
-    color: white;
-    opacity: 0%;
+.mdl-navigation__link{
+    opacity: .99;
 }
 
 .box-logo{
@@ -44,9 +42,13 @@ body {
     display: none;
 }
 
-/*Landing page view styles*/
+/*LandingView styles*/
 .avatar-img {
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
 }
+
+/* .landing-grid {
+
+} */
 
