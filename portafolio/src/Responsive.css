@@ -9,4 +9,8 @@
     .mdl-navigation__link {
         display: none !important;
     }
+
+    .mdl-layout-title, .material-icons {
+        color: white;
+    }
 }

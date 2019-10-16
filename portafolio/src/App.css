@@ -30,3 +30,7 @@ body {
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
 }
+
+.logo-brand {
+    width: 10rem;
+}

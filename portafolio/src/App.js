@@ -11,7 +11,15 @@ class App extends Component {
       return (
         <div className="demo-big-content">
             <Layout>
-                <Header className="header-color" title="Vianey Lara" scroll>
+                <Header 
+                className="header-color" 
+                // title="Vianey Lara" 
+                scroll>
+                    <Content>
+                        <div>
+                            <img className="logo-brand" src="https://i.ibb.co/bb14FSS/logo-Vi-La-Ra-Recortado.png" alt="LogoViLaRa"/>
+                        </div>
+                    </Content>
                     <Navigation>
                         <Link to="/resume">Resume</Link>
                         <Link to="/aboutme">Acerca de mí</Link>
