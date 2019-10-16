@@ -1,3 +1,4 @@
+/*RWD for mobile desktop*/
 @media screen and (max-width: 1024px) {
     .mdl-layout__header {
         background-color: #9f9f9f !important;
