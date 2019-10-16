@@ -1,4 +1,4 @@
-/*RWD for mobile desktop*/
+/*Responsive web design(Media queries: Tablet & mobile)*/
 @media screen and (max-width: 1024px) {
     .mdl-layout__header {
         background-color: #9f9f9f !important;
@@ -13,4 +13,15 @@
     .mdl-layout-title, .material-icons {
         color: white;
     }
+
+    .box-logo {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .logo-brand {
+        width: 11rem;
+        display: block;
+    }
+    
 }
