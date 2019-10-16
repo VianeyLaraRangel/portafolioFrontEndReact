@@ -1,22 +1,45 @@
-.App {
-  text-align: center;
+/*Brandcolors ViLaRa 
+Strong grey #383536
+Red #e03c31
+Less grey #9F9F9F
+*/
+/*General styles*/
+
+* {
+    font-family: 'Oswald', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
+body {
+    background-color: #383536;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*Navbar header styles*/
+.header-color {
+    background: linear-gradient(to top, #e03c31, #e03c31);
 }
 
-.App-link {
-  color: #09d3ac;
+.mdl-layout-title {
+    font-family: 'Oswald', sans-serif !important;
 }
+
+.box-logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo-brand {
+    display: none;
+}
+
+/*SideMenu of hamburguerIcon styles*/
+.mdl-layout__drawer.is-visible {
+    background-color: white;
+    color: #000000;
+}    
+
+/*LandingView styles*/
+.avatar-img {
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
