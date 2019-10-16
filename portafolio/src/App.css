@@ -27,6 +27,6 @@ body {
 }
 
 .avatar-img {
-    border-top-left-radius: 40px !important;
-    border-bottom-right-radius: 40px;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
