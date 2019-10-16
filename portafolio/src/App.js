@@ -13,7 +13,7 @@ class App extends Component {
             <Layout>
                 <Header 
                 className="header-color" 
-                // title="Vianey Lara" 
+                title="Vianey Lara" 
                 scroll>
                     <Content>
                         <div className="box-logo">
@@ -23,15 +23,26 @@ class App extends Component {
                             alt="LogoViLaRa"/>
                         </div>
                     </Content>
-                    <Navigation>
+                    <Navigation className="link-desktop">
                         <Link to="/resume">Resume</Link>
                         <Link to="/aboutme">Acerca de mí</Link>
                         <Link to="/projects">Proyectos</Link>
                         <Link to="/contact">Contact</Link>
                     </Navigation>
                 </Header>
-                <Drawer title="Title">
-                    <Navigation>
+                <Drawer 
+                className="hamburguer-menu" 
+                >
+                    {/* <Content> */}
+                        <div className="box-logo-drawer">
+                            <img
+                                src="https://i.ibb.co/9V94KV9/vianeylara.jpg"
+                                alt="VianeyLara´s pic"
+                                className="avatar-img-drawer"
+                            />
+                        </div>
+                    {/* </Content> */}
+                    <Navigation className="link-mobile">
                         <Link to="/resume">Resume</Link>
                         <Link to="/aboutme">Acerca de mí</Link>
                         <Link to="/projects">Proyectos</Link>

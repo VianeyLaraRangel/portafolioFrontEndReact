@@ -7,10 +7,10 @@
         color: rgba(0, 0, 0, 0.5) !important;
     }
     
-    .mdl-navigation__link {
+    .mdl-layout-title {
         display: none !important;
     }
-    
+
     .mdl-layout-title, .material-icons {
         color: white;
     }
@@ -25,13 +25,44 @@
         display: block;
     }
 
+
+    /*SideMenu of hamburguerIcon styles*/
+    .mdl-layout__drawer.is-visible {
+        background-color: white;
+        color: #000000 !important;
+    }
+
+    .mdl-navigation__link, .link-desktop {
+        display: none !important;
+    }
+
+    .mdl-navigation__link, .link-mobile {
+        display: block !important;
+    }
+    
+    .box-logo-drawer {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .hamburguer-menu {
+        color: #000000;
+        display: block;
+    }
     /*LandingView styles*/
     .avatar-img {
-    border-top-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+        display: none;
+    }
+
+    .avatar-img-drawer {
+        border-top-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        display: block;
+        border: 2px solid #e03c31;
     }
 }
