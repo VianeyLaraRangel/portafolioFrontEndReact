@@ -15,6 +15,10 @@ body {
     background-color: #383536;
 }
 
+/* .flex{
+    display: flex;
+} */
+
 
 /*Navbar header styles*/
 
@@ -31,6 +35,11 @@ body {
     border-bottom-right-radius: 2rem;
 }
 
+.box-logo{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .logo-brand {
-    width: 10rem;
+    width: 11rem;
 }

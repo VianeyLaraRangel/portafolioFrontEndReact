@@ -16,8 +16,11 @@ class App extends Component {
                 // title="Vianey Lara" 
                 scroll>
                     <Content>
-                        <div>
-                            <img className="logo-brand" src="https://i.ibb.co/bb14FSS/logo-Vi-La-Ra-Recortado.png" alt="LogoViLaRa"/>
+                        <div className="box-logo">
+                            <img 
+                            className="logo-brand"
+                            src="https://i.ibb.co/gJjnbVz/logo-Vi-La-Ra2-1-ok.png" 
+                            alt="LogoViLaRa"/>
                         </div>
                     </Content>
                     <Navigation>
