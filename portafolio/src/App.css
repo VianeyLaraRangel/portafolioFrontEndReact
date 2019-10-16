@@ -30,9 +30,9 @@ body {
     font-family: 'Oswald', sans-serif !important;
 }
 
-.avatar-img {
-    border-top-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+.mdl-navigation__link {
+    color: white;
+    opacity: 0%;
 }
 
 .box-logo{
@@ -40,10 +40,13 @@ body {
     justify-content: flex-start;
 }
 
-/* .logo-brand {
-    width: 14.2rem;
-} */
-
 .logo-brand {
     display: none;
 }
+
+/*Landing page view styles*/
+.avatar-img {
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
