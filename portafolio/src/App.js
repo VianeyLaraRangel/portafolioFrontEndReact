@@ -19,7 +19,7 @@ class App extends Component {
                         <div className="box-logo">
                             <img 
                             className="logo-brand"
-                            src="https://i.ibb.co/gJjnbVz/logo-Vi-La-Ra2-1-ok.png" 
+                            src="https://i.ibb.co/fCqCmGm/logo-Vi-La-Ra2-2-ok.png" 
                             alt="LogoViLaRa"/>
                         </div>
                     </Content>
