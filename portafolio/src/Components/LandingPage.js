@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
+import PersonalCard from "./Card/PersonalCard";
+
 class Landing extends Component {
     render() {
         return (
@@ -12,6 +14,7 @@ class Landing extends Component {
                             alt="VianeyLara´s pic"
                             className="avatar-img"
                         />
+                        <PersonalCard />
                     </Cell>
                 </Grid>
             </div>
