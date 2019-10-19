@@ -1,10 +1,13 @@
+//This view shows a quickly view of me
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+
+import PersonalCard from "./Card/PresentationCard";
 
 class Landing extends Component {
     render() {
         return (
-            <div style={{ width: '100%', margin: 'auto' }}>
+            <div>
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img
@@ -12,6 +15,7 @@ class Landing extends Component {
                             alt="VianeyLara´s pic"
                             className="avatar-img"
                         />
+                        <PersonalCard />
                     </Cell>
                 </Grid>
             </div>

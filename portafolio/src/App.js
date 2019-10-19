@@ -1,3 +1,4 @@
+// This component is principal/initial page contains a navbar and sidebar from hamburguer icon to all webApp.
 import React, { Component } from 'react';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './Components/Main';
@@ -12,9 +13,9 @@ class App extends Component {
         <div className="demo-big-content">
             <Layout>
                 <Header 
-                className="header-color" 
-                title="Vianey Lara" 
-                scroll>
+                    className="header-color" 
+                    title="Vianey Lara" 
+                    scroll>
                     <Content>
                         <div className="box-logo">
                             <img 
@@ -31,9 +32,7 @@ class App extends Component {
                     </Navigation>
                 </Header>
                 <Drawer 
-                className="hamburguer-menu" 
-                >
-                    {/* <Content> */}
+                className="hamburguer-menu">
                         <div className="box-logo-drawer">
                             <img
                                 src="https://i.ibb.co/9V94KV9/vianeylara.jpg"
@@ -41,12 +40,11 @@ class App extends Component {
                                 className="avatar-img-drawer"
                             />
                         </div>
-                    {/* </Content> */}
                     <Navigation className="link-mobile">
-                        <Link to="/resume">Resume</Link>
                         <Link to="/aboutme">Acerca de mí</Link>
                         <Link to="/projects">Proyectos</Link>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/resume">Experiencia</Link>
+                        <Link to="/contact">Contacto</Link>
                     </Navigation>
                 </Drawer>
                 <Content>
