@@ -2,12 +2,12 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
-import PersonalCard from "./Card/PresentationCard";
+import PersonalCard from "./Card/PersonalCard";
 
 class Landing extends Component {
     render() {
         return (
-            <div>
+            <div >
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img

@@ -35,8 +35,8 @@ class App extends Component {
                 className="hamburguer-menu">
                         <div className="box-logo-drawer">
                             <img
-                                src="https://i.ibb.co/9V94KV9/vianeylara.jpg"
-                                alt="VianeyLara´s pic"
+                                src="https://i.ibb.co/LNy2vrW/melted-Rubik-ok.png"
+                                alt="MeltedRubik"
                                 className="avatar-img-drawer"
                             />
                         </div>
