@@ -82,4 +82,8 @@ Less grey #9F9F9F
     .presentation-box{
         background-color: #9f9f9f;
     }
+
+    .social-buttons {
+        text-decoration: none;
+    }
 }
