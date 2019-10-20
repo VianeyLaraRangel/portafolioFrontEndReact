@@ -1,5 +1,13 @@
+/*Brandcolors ViLaRa 
+Strong grey #383536
+Red #e03c31
+Less grey #9F9F9F
+*/
 /*Responsive web design(Media queries: Tablet & mobile)*/
 @media screen and (max-width: 1024px) {
+    body {
+        background-color: white;
+    }
     /*Navbar header styles*/
     .mdl-layout__header {
         background-color: #9f9f9f !important;
@@ -46,10 +54,6 @@
         margin-top: 1rem;
     }
 
-    .hamburguer-menu {
-        color: #000000;
-        display: block;
-    }
     /*LandingView styles*/
     .avatar-img {
         display: none;
@@ -61,8 +65,50 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 60%;
+        width: 70%;
         display: block;
-        border: 2px solid #e03c31;
+        /* border: 2px solid #e03c31; */
+    }
+
+    .card-box {
+        width: 20.5rem !important;
+        height: 35rem;
+        background-color: #383536 !important;
+    }
+
+    .card-title {
+        background-color: #e03c31;
+        background-image: url(https://i.ibb.co/9V94KV9/vianeylara.jpg);
+        background-repeat: no-repeat;
+        background-position: 15% 10%;
+        border: 5px solid #9f9f9f;
+        display: flex;
+    }
+
+    .fa-map-marker-alt, p {
+        justify-content: right;
+    }
+
+
+
+
+    .mdl-card__supporting-text, p{
+        color: white !important;
+        background-color: #383536;
+        font-size: 2rem !important;
+    }
+    
+    .mdl-button--fab {
+        margin: 0.2rem 1.4rem 0.2rem 1rem !important;
+        background-color: white !important;
+    }
+
+    a , .fas {
+        color: #383536 !important;
+    }
+
+    i {
+        background-color: transparent;
+        font-size: 2.8rem !important;
     }
 }
