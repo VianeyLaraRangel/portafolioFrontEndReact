@@ -82,8 +82,17 @@ Less grey #9F9F9F
     .presentation-box{
         background-color: #9f9f9f;
     }
+    
+    .mdl-button--fab {
+        margin: 1.2rem !important;
+    }
 
-    .social-buttons {
-        text-decoration: none;
+    a {
+        color: #e03c31 !important;
+        font-weight: 500;
+    }
+
+    i {
+        background-color: transparent;
     }
 }
