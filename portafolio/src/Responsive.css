@@ -76,7 +76,7 @@ Less grey #9F9F9F
         background-color: #383536 !important;
         text-align: center;
         box-shadow: #9f9f9f;
-        /*Fro https://www.cssmatic.com/box-shadow*/
+        /*From https://www.cssmatic.com/box-shadow*/
         -webkit-box-shadow: -13px -13px 4px -8px rgba(56,53,54,0.63);
         -moz-box-shadow: -13px -13px 4px -8px rgba(56,53,54,0.63);
         box-shadow: -13px -13px 4px -8px rgba(56,53,54,0.63);
@@ -109,14 +109,23 @@ Less grey #9F9F9F
         font-size: 2.3rem !important;
     }
 
-    .presentation-icon {
+    .fa-map-marker-alt, .p-fa-map-marker-alt{
+        display: flex;
+        width: 3rem;
+        justify-content: center;
+        align-self: flex-end;
+        color:#e03c31 !important;
+        background-color: transparent;
+    }
+
+    /* .presentation-icon {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-end;
-        margin: 1rem 0rem 1rem 5rem;
-        
+        margin: 1rem 0rem 1rem 5rem;        
     }
+     */
     
     /* .logo-labo {
         width: 25%;
@@ -129,12 +138,4 @@ Less grey #9F9F9F
         margin-top: 1rem;
     } */
 
-    .fa-map-marker-alt, .p-fa-map-marker-alt{
-        display: flex;
-        width: 3rem;
-        justify-content: center;
-        align-self: flex-end;
-        color:#e03c31 !important;
-        background-color: transparent;
-    }
 }

@@ -1,8 +1,9 @@
 // This components is a child for a view/component LandingPage.
 import React from 'react';
 import { Card, CardTitle, CardText, CardActions, FABButton } from 'react-mdl';
-import LaboratoriaLogo from '../../Assets/LaboratoriaLok.png';
-import FacDerechoLogo from '../../Assets/FacDereechoAzulok.jpg';
+// import LaboratoriaLogo from '../../Assets/LaboratoriaLok.png';
+// import FacDerechoLogo from '../../Assets/FacDereechoAzulok.jpg';
+import cvViLara from '../../Documents/vianeyLaraCV.pdf';
 
 class PersonalCard extends React.Component {
     render() {
@@ -30,7 +31,7 @@ class PersonalCard extends React.Component {
                 <CardActions border>
                     <div className="social-buttons" id="anima">
                         <FABButton>
-                            <a href="../../src/Documents/vianeyLaraCV.pdf" download="VianeyLaraRangelCV">
+                            <a href={cvViLara} download="VianeyLaraRangelCV">
                                 <i className="fas fa-file-download"></i>
                             </a>
                         </FABButton>
