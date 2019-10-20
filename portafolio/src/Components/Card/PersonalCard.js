@@ -5,8 +5,11 @@ import { Card, CardTitle , CardText , CardActions , Button } from 'react-mdl';
 class PersonalCard extends React.Component {
     render() {
         return (
-            <Card shadow={0} style={{ width: '320px', height: '320px', margin: 'auto' }}>
-                <CardTitle expand style={{ color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC' }}>Update</CardTitle>
+            <Card className="card-box">
+                <CardTitle expand 
+                    className="card-title">
+                    ¡Hola!
+                </CardTitle>
                 <CardText>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aenan convallis.
@@ -20,3 +23,5 @@ class PersonalCard extends React.Component {
 }
 
 export default PersonalCard;
+
+// style={{ color: '#000000', background: 'url(https://i.ibb.co/9V94KV9/vianeylara.jpg) bottom right 50% no-repeat #9F9F9F' }}

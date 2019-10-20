@@ -1,3 +1,8 @@
+/*Brandcolors ViLaRa 
+Strong grey #383536
+Red #e03c31
+Less grey #9F9F9F
+*/
 /*Responsive web design(Media queries: Tablet & mobile)*/
 @media screen and (max-width: 1024px) {
     /*Navbar header styles*/
@@ -46,10 +51,6 @@
         margin-top: 1rem;
     }
 
-    .hamburguer-menu {
-        color: #000000;
-        display: block;
-    }
     /*LandingView styles*/
     .avatar-img {
         display: none;
@@ -61,8 +62,18 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 60%;
+        width: 70%;
         display: block;
-        border: 2px solid #e03c31;
+        /* border: 2px solid #e03c31; */
+    }
+
+    .card-box {
+        width: 20.5rem !important;
+        height: 33rem;
+    }
+
+    .card-title {
+        background-image: url(https://i.ibb.co/9V94KV9/vianeylara.jpg);
+        background-repeat: no-repeat;
     }
 }
