@@ -76,21 +76,14 @@ Less grey #9F9F9F
         background-color: #383536 !important;
     }
 
-    .card-title {
+    .card-title, .mdl-card__title {
+        justify-content: flex-end !important;
         background-color: #e03c31;
         background-image: url(https://i.ibb.co/9V94KV9/vianeylara.jpg);
         background-repeat: no-repeat;
         background-position: 15% 10%;
         border: 5px solid #9f9f9f;
-        display: flex;
     }
-
-    .fa-map-marker-alt, p {
-        justify-content: right;
-    }
-
-
-
 
     .mdl-card__supporting-text, p{
         color: white !important;

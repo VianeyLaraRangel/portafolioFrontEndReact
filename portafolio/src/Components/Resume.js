@@ -1,7 +1,7 @@
 // This view is about my professional experience .
 import React, { Component } from 'react';
 
-class Resume extends Component {
+class Experiencia extends Component {
     render() {
         return(
             <div><h1>Experiencia profesional</h1></div>
@@ -9,4 +9,4 @@ class Resume extends Component {
     }
 }
 
-export default Resume;
+export default Experiencia;

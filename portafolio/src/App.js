@@ -25,10 +25,10 @@ class App extends Component {
                         </div>
                     </Content>
                     <Navigation className="link-desktop">
-                        <Link to="/resume">Resume</Link>
                         <Link to="/aboutme">Acerca de mí</Link>
                         <Link to="/projects">Proyectos</Link>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/resume">Experiencia</Link>
+                        <Link to="/contact">Contacto</Link>
                     </Navigation>
                 </Header>
                 <Drawer 
