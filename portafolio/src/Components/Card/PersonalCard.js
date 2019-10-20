@@ -17,9 +17,6 @@ class PersonalCard extends React.Component {
                         <i className="fas fa-map-marker-alt">
                             <p className="p-fa-map-marker-alt">CDMX</p>
                         </i>
-                        <i className="fas fa-map-marker-alt">
-                            <p className="p-fa-map-marker-alt">29 años</p>
-                        </i>
                     </div>
                 </CardTitle>
                 <CardText className="presentation-box">

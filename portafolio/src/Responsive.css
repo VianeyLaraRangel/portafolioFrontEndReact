@@ -86,7 +86,7 @@ Less grey #9F9F9F
         display: flex !important;
         justify-content: flex-end !important;
         background-color: #E8EAE1 ;
-        background-image: url(https://i.ibb.co/9V94KV9/vianeylara.jpg);
+        background-image: url(https://i.ibb.co/0ZQgcxK/vianeylara-1-1.jpg);
         background-repeat: no-repeat;
         background-position: 50% 50%;
     }
@@ -114,10 +114,11 @@ Less grey #9F9F9F
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-end;
-        margin: -10px 0px 10px 20px;
+        margin: 1rem 0rem 1rem 5rem;
         
     }
-    .logo-labo {
+    
+    /* .logo-labo {
         width: 25%;
         margin-bottom: 1.3rem;
     }
@@ -126,14 +127,14 @@ Less grey #9F9F9F
         width: 25%;
         margin-bottom: 3.7rem;
         margin-top: 1rem;
-    }
+    } */
 
     .fa-map-marker-alt, .p-fa-map-marker-alt{
         display: flex;
-        width: 5rem;
+        width: 3rem;
         justify-content: center;
         align-self: flex-end;
-        color: #383536 !important;
+        color:#e03c31 !important;
         background-color: transparent;
     }
 }
