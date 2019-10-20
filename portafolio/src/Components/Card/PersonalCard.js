@@ -1,6 +1,6 @@
 // This components is a child for a view/component LandingPage.
 import React from 'react';
-import { Card, CardTitle, CardText, CardActions, FABButton, Icon, IconButton } from 'react-mdl';
+import { Card, CardTitle, CardText, CardActions, FABButton } from 'react-mdl';
 
 class PersonalCard extends React.Component {
     render() {
@@ -8,15 +8,11 @@ class PersonalCard extends React.Component {
             <Card className="card-box">
                 <CardTitle expand
                     className="card-title">
-                    <div className="presentation-box">
-                        <i class="fas fa-map-marker-alt">CDMX</i>
-                    </div>
+                        <i className="fas fa-map-marker-alt"></i>
+                        <p>CDMX</p>
                 </CardTitle>
-                <CardText>
-                    Ante el panorama de la transformación digital y tras años de experiencia en:
-                    compras, importación y logística internacional, decidí continuar desarrollando
-                    mi capacidad de auto aprendizaje, adaptabilidad y resolución de problemas
-                    para buscar posicionarme activamente en la creación de la industria 4.0.
+                <CardText className="presentation-box">
+                    <p> DESARROLLADORA + ABOGADA</p>
                 </CardText>
                 <CardActions border>
                     <div className="social-buttons" id="anima">
@@ -26,12 +22,12 @@ class PersonalCard extends React.Component {
                             </a>
                         </FABButton>
                         <FABButton>
-                            <a href="https://github.com/VianeyLaraRangel" target="_blank">
+                            <a href="https://github.com/VianeyLaraRangel" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-github"></i>
                             </a>
                         </FABButton>
                         <FABButton>
-                            <a href="https://www.linkedin.com/in/vianeylararangel/" target="_blank">
+                            <a href="https://www.linkedin.com/in/vianeylararangel/" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-linkedin"></i>
                             </a>
                         </FABButton>

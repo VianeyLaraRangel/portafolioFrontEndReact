@@ -5,6 +5,9 @@ Less grey #9F9F9F
 */
 /*Responsive web design(Media queries: Tablet & mobile)*/
 @media screen and (max-width: 1024px) {
+    body {
+        background-color: white;
+    }
     /*Navbar header styles*/
     .mdl-layout__header {
         background-color: #9f9f9f !important;
@@ -69,30 +72,43 @@ Less grey #9F9F9F
 
     .card-box {
         width: 20.5rem !important;
-        height: 33rem;
+        height: 35rem;
+        background-color: #383536 !important;
     }
 
     .card-title {
         background-color: #e03c31;
         background-image: url(https://i.ibb.co/9V94KV9/vianeylara.jpg);
         background-repeat: no-repeat;
-        border: 5px solid white;
+        background-position: 15% 10%;
+        border: 5px solid #9f9f9f;
+        display: flex;
     }
 
-    .presentation-box{
-        background-color: #9f9f9f;
+    .fa-map-marker-alt, p {
+        justify-content: right;
+    }
+
+
+
+
+    .mdl-card__supporting-text, p{
+        color: white !important;
+        background-color: #383536;
+        font-size: 2rem !important;
     }
     
     .mdl-button--fab {
-        margin: 1.2rem !important;
+        margin: 0.2rem 1.4rem 0.2rem 1rem !important;
+        background-color: white !important;
     }
 
-    a {
-        color: #e03c31 !important;
-        font-weight: 500;
+    a , .fas {
+        color: #383536 !important;
     }
 
     i {
         background-color: transparent;
+        font-size: 2.8rem !important;
     }
 }
