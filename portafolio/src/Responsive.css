@@ -29,8 +29,9 @@ Less grey #9F9F9F
     }
     
     .logo-brand {
-        width: 11rem;
+        width: 18rem;
         display: block;
+        margin-right: .3rem;
     }
 
 
@@ -67,7 +68,6 @@ Less grey #9F9F9F
         margin-right: auto;
         width: 70%;
         display: block;
-        /* border: 2px solid #e03c31; */
     }
 
     .card-box {
@@ -75,26 +75,28 @@ Less grey #9F9F9F
         height: 35rem;
         background-color: #383536 !important;
         text-align: center;
+        box-shadow: #9f9f9f;
+        /*Fro https://www.cssmatic.com/box-shadow*/
+        -webkit-box-shadow: -13px -13px 4px -8px rgba(56,53,54,0.63);
+        -moz-box-shadow: -13px -13px 4px -8px rgba(56,53,54,0.63);
+        box-shadow: -13px -13px 4px -8px rgba(56,53,54,0.63);
     }
 
     .card-title, .mdl-card__title {
         display: flex !important;
         justify-content: flex-end !important;
-        /* background-color: white; */
+        background-color: #E8EAE1 ;
         background-image: url(https://i.ibb.co/9V94KV9/vianeylara.jpg);
         background-repeat: no-repeat;
-        background-position: 15% 10%;
-        /* border: 5px solid #9f9f9f; */
+        background-position: 50% 50%;
     }
 
     .mdl-card__supporting-text, p{
-        color: white !important;
-        background-color: #383536;
-        font-size: 2rem !important;
+        background-color: #e03c31;
     }
     
     .mdl-button--fab {
-        margin: 0.2rem 1.4rem 0.2rem 1rem !important;
+        margin: 0.2rem 1.3rem 0.2rem 1rem !important;
         background-color: white !important;
     }
 
@@ -104,7 +106,7 @@ Less grey #9F9F9F
 
     i {
         background-color: transparent;
-        font-size: 2.8rem !important;
+        font-size: 2.3rem !important;
     }
 
     .presentation-icon {
@@ -112,7 +114,7 @@ Less grey #9F9F9F
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-end;
-        margin: -10px 0px 10px 10px;
+        margin: -10px 0px 10px 20px;
         
     }
     .logo-labo {
@@ -128,9 +130,10 @@ Less grey #9F9F9F
 
     .fa-map-marker-alt, .p-fa-map-marker-alt{
         display: flex;
-        width: 8rem;
+        width: 5rem;
         justify-content: center;
-        align-self: flex-start;
-        color: white !important;
+        align-self: flex-end;
+        color: #383536 !important;
+        background-color: transparent;
     }
 }

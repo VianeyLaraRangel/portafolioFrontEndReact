@@ -11,15 +11,24 @@ class PersonalCard extends React.Component {
                 <CardTitle expand
                     className="card-title">
                     <div className="presentation-icon">
-                        <img src={LaboratoriaLogo} alt="LaboratoriaLogo" className="logo-labo" />
-                        <img src={FacDerechoLogo} alt="FacDerechoLogo" className="logo-facderecho" />
+                        
+                        {/* <img src={LaboratoriaLogo} alt="LaboratoriaLogo" className="logo-labo" />
+                        <img src={FacDerechoLogo} alt="FacDerechoLogo" className="logo-facderecho" /> */}
                         <i className="fas fa-map-marker-alt">
                             <p className="p-fa-map-marker-alt">CDMX</p>
+                        </i>
+                        <i className="fas fa-map-marker-alt">
+                            <p className="p-fa-map-marker-alt">29 años</p>
                         </i>
                     </div>
                 </CardTitle>
                 <CardText className="presentation-box">
-                    <p> DESARROLLADORA + ABOGADA</p>
+                    <div className="box-logo">
+                        <img
+                            className="logo-brand"
+                            src="https://i.ibb.co/fCqCmGm/logo-Vi-La-Ra2-2-ok.png"
+                            alt="LogoViLaRa" />
+                    </div>
                 </CardText>
                 <CardActions border>
                     <div className="social-buttons" id="anima">

@@ -16,14 +16,6 @@ class App extends Component {
                     className="header-color" 
                     title="Vianey Lara" 
                     scroll>
-                    <Content>
-                        <div className="box-logo">
-                            <img 
-                            className="logo-brand"
-                            src="https://i.ibb.co/fCqCmGm/logo-Vi-La-Ra2-2-ok.png" 
-                            alt="LogoViLaRa"/>
-                        </div>
-                    </Content>
                     <Navigation className="link-desktop">
                         <Link to="/aboutme">Acerca de mí</Link>
                         <Link to="/projects">Proyectos</Link>
