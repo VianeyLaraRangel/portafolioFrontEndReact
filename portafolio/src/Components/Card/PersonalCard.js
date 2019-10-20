@@ -1,6 +1,8 @@
 // This components is a child for a view/component LandingPage.
 import React from 'react';
 import { Card, CardTitle, CardText, CardActions, FABButton } from 'react-mdl';
+import LaboratoriaLogo from '../../Assets/LaboratoriaLok.png';
+import FacDerechoLogo from '../../Assets/FacDereechoAzulok.jpg';
 
 class PersonalCard extends React.Component {
     render() {
@@ -8,8 +10,13 @@ class PersonalCard extends React.Component {
             <Card className="card-box">
                 <CardTitle expand
                     className="card-title">
-                        <i className="fas fa-map-marker-alt"></i>
-                        <p>CDMX</p>
+                    <div className="presentation-icon">
+                        <img src={LaboratoriaLogo} alt="LaboratoriaLogo" className="logo-labo" />
+                        <img src={FacDerechoLogo} alt="FacDerechoLogo" className="logo-facderecho" />
+                        <i className="fas fa-map-marker-alt">
+                            <p className="p-fa-map-marker-alt">CDMX</p>
+                        </i>
+                    </div>
                 </CardTitle>
                 <CardText className="presentation-box">
                     <p> DESARROLLADORA + ABOGADA</p>

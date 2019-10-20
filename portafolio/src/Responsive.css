@@ -74,15 +74,17 @@ Less grey #9F9F9F
         width: 20.5rem !important;
         height: 35rem;
         background-color: #383536 !important;
+        text-align: center;
     }
 
     .card-title, .mdl-card__title {
+        display: flex !important;
         justify-content: flex-end !important;
-        background-color: #e03c31;
+        /* background-color: white; */
         background-image: url(https://i.ibb.co/9V94KV9/vianeylara.jpg);
         background-repeat: no-repeat;
         background-position: 15% 10%;
-        border: 5px solid #9f9f9f;
+        /* border: 5px solid #9f9f9f; */
     }
 
     .mdl-card__supporting-text, p{
@@ -103,5 +105,32 @@ Less grey #9F9F9F
     i {
         background-color: transparent;
         font-size: 2.8rem !important;
+    }
+
+    .presentation-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin: -10px 0px 10px 10px;
+        
+    }
+    .logo-labo {
+        width: 25%;
+        margin-bottom: 1.3rem;
+    }
+
+    .logo-facderecho {
+        width: 25%;
+        margin-bottom: 3.7rem;
+        margin-top: 1rem;
+    }
+
+    .fa-map-marker-alt, .p-fa-map-marker-alt{
+        display: flex;
+        width: 8rem;
+        justify-content: center;
+        align-self: flex-start;
+        color: white !important;
     }
 }
