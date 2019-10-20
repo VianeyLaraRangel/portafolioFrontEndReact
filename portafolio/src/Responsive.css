@@ -73,7 +73,13 @@ Less grey #9F9F9F
     }
 
     .card-title {
+        background-color: #e03c31;
         background-image: url(https://i.ibb.co/9V94KV9/vianeylara.jpg);
         background-repeat: no-repeat;
+        border: 5px solid white;
+    }
+
+    .presentation-box{
+        background-color: #9f9f9f;
     }
 }
