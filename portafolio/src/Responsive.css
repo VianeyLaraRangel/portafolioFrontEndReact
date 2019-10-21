@@ -14,7 +14,7 @@ Less grey #9F9F9F*/
     }
 
     /*To show in responsive*/
-    .mdl-layout__header,.mdl-layout__drawer-button,.logo-brand, .mdl-navigation__link, .link-mobile, .avatar-img-drawer {
+    .mdl-layout__header,.mdl-layout__drawer-button, .material-icons, .logo-brand, .mdl-navigation__link, .link-mobile, .avatar-img-drawer {
         display: block !important;
     }
 
@@ -26,6 +26,12 @@ Less grey #9F9F9F*/
     .box-logo {
         display: flex;
         justify-content: flex-end;
+    }
+
+    .mdl-layout__drawer-button {
+        background-image: none !important;
+        width: 5rem !important;
+        margin-top: .5rem !important;
     }
     
     .logo-brand {

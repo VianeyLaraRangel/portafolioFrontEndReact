@@ -14,20 +14,11 @@ body {
 }
 
 /*Not showing in desktop*/
-.mdl-layout__drawer-button {
-    background-image: url(https://i.ibb.co/KxcCvFf/logo-Vi-La-Ra2-2-ok.png);
-    background-repeat: no-repeat;
-    background-position: 0% 50%;
-    background-size: 12rem;
-    width: 15rem !important;
-}
-
 .material-icons {
-display: none !important;
-}
+    display: none !important;
+    }
 
 /*Principal components/views styles*/
-/* background-image: url(https://i.ibb.co/KxcCvFf/logo-Vi-La-Ra2-2-ok.png); */
 
 /*Navbar header styles*/
 .header-color {
@@ -38,10 +29,19 @@ display: none !important;
     font-family: 'Oswald', sans-serif !important;
 }
 
-.box-logo{
+.mdl-layout__drawer-button {
+    background-image: url(https://i.ibb.co/KxcCvFf/logo-Vi-La-Ra2-2-ok.png);
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    background-size: 12rem;
+    width: 15rem !important;
+}
+
+
+/* .box-logo{
     display: flex;
     justify-content: flex-start;
-}
+} */
 
 /*SideMenu of hamburguerIcon styles*/
 .mdl-layout__drawer.is-visible {
