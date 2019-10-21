@@ -1,24 +1,24 @@
 /*Brandcolors ViLaRa 
 Strong grey #383536
 Red #e03c31
-Less grey #9F9F9F
-*/
-/*Responsive web design(Media queries: Tablet & mobile)*/
-@media screen and (max-width: 1024px) {
+Less grey #9F9F9F*/
+
+/*Responsive web design(Media queries: Tablet & mobile vertical)*/
+@media screen and (max-width: 1024px) and (orientation: portrait) {
     body {
         background-color: white;
     }
-    /*Navbar header styles*/
-    .mdl-layout__header {
-        background-color: #9f9f9f !important;
-        display: block !important;
-        color: rgba(0, 0, 0, 0.5) !important;
-    }
-    
-    .mdl-layout-title {
+    /*Not showing in responsive*/
+    .mdl-layout-title, .mdl-navigation__link, .link-desktop, .avatar-img {
         display: none !important;
     }
 
+    /*To show in responsive*/
+    .mdl-layout__header,.mdl-layout__drawer-button,.logo-brand, .mdl-navigation__link, .link-mobile, .avatar-img-drawer {
+        display: block !important;
+    }
+
+    /*Navbar header styles*/
     .mdl-layout-title, .material-icons {
         color: white;
     }
@@ -30,24 +30,11 @@ Less grey #9F9F9F
     
     .logo-brand {
         width: 18rem;
-        display: block;
         margin-right: .3rem;
     }
 
 
     /*SideMenu of hamburguerIcon styles*/
-    .mdl-layout__drawer.is-visible {
-        background-color: white;
-        color: #000000 !important;
-    }
-
-    .mdl-navigation__link, .link-desktop {
-        display: none !important;
-    }
-
-    .mdl-navigation__link, .link-mobile {
-        display: block !important;
-    }
     /*icon into sidebar of hamburguer icon*/
     .box-logo-drawer {
         display: flex;
@@ -56,27 +43,13 @@ Less grey #9F9F9F
         margin-top: 2rem;
     }
 
-    /* .labo-logo, .ius-logo {
-        width: 100%;
-        max-width: 3rem;
-        height: 4rem;
-    } */
-
-    
-
     /*LandingView styles*/
-    .avatar-img {
-        display: none;
-    }
-
     .avatar-img-drawer {
         border-top-left-radius: 2rem;
         border-bottom-right-radius: 2rem;
-        display: block;
         margin-left: auto;
         margin-right: auto;
         width: 70%;
-        display: block;
     }
 
     .card-box {
@@ -126,25 +99,4 @@ Less grey #9F9F9F
         color:#e03c31 !important;
         background-color: transparent;
     }
-
-    /* .presentation-icon {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-end;
-        margin: 1rem 0rem 1rem 5rem;        
-    }
-     */
-    
-    /* .logo-labo {
-        width: 25%;
-        margin-bottom: 1.3rem;
-    }
-
-    .logo-facderecho {
-        width: 25%;
-        margin-bottom: 3.7rem;
-        margin-top: 1rem;
-    } */
-
 }

@@ -8,8 +8,7 @@ import './App.css';
 import './Responsive.css';
 
 import LaboratoriaLogo from './Assets/LaboratoriaLok.png';
-import FacDerechoLogo from './Assets/FacDereechoAzulok.jpg';
-
+// import LogoBrand from './Assets/logoViLaRaRecortado.png';
 
 class App extends Component {
   render () {
@@ -32,18 +31,18 @@ class App extends Component {
                         <div className="box-logo-drawer">
                             <img
                                 src={LaboratoriaLogo}
-                                width="100"
-                                height="100"
+                                width="80"
+                                height="80"
                                 alt="simpleLaboratoriaLogo"
                                 className="labo-logo"
                             />
-                            <img
+                            {/* <img
                                 src={FacDerechoLogo}
                                 width="80"
                                 height="110"
                                 alt="unamDerechoLogo"
                                 className="ius-logo"
-                            />
+                            /> */}
                         </div>
                     <Navigation className="link-mobile">
                         <Link to="/aboutme">Acerca de mí</Link>

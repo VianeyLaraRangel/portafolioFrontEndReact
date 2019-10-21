@@ -2,9 +2,7 @@
 Strong grey #383536
 Red #e03c31
 Less grey #9F9F9F
-*/
-
-/*General styles*/
+Viwhite #E8EAE1*/
 
 /*General styles*/
 * {
@@ -15,10 +13,25 @@ body {
     background-color: #383536;
 }
 
-/*Principal components styles*/
+/*Not showing in desktop*/
+.mdl-layout__drawer-button {
+    background-image: url(https://i.ibb.co/KxcCvFf/logo-Vi-La-Ra2-2-ok.png);
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    background-size: 12rem;
+    width: 15rem !important;
+}
+
+.material-icons {
+display: none !important;
+}
+
+/*Principal components/views styles*/
+/* background-image: url(https://i.ibb.co/KxcCvFf/logo-Vi-La-Ra2-2-ok.png); */
+
 /*Navbar header styles*/
 .header-color {
-    background: linear-gradient(to top, #e03c31, #e03c31);
+    background: #e03c31 !important;
 }
 
 .mdl-layout-title {
@@ -28,10 +41,6 @@ body {
 .box-logo{
     display: flex;
     justify-content: flex-start;
-}
-
-.logo-brand {
-    display: none;
 }
 
 /*SideMenu of hamburguerIcon styles*/
