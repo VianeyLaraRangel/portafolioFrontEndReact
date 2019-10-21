@@ -48,12 +48,21 @@ Less grey #9F9F9F
     .mdl-navigation__link, .link-mobile {
         display: block !important;
     }
-    
+    /*icon into sidebar of hamburguer icon*/
     .box-logo-drawer {
         display: flex;
-        justify-content: center;
-        margin-top: 1rem;
+        justify-content: space-around;
+        align-content: center;
+        margin-top: 2rem;
     }
+
+    /* .labo-logo, .ius-logo {
+        width: 100%;
+        max-width: 3rem;
+        height: 4rem;
+    } */
+
+    
 
     /*LandingView styles*/
     .avatar-img {

@@ -1,8 +1,6 @@
 // This components is a child for a view/component LandingPage.
 import React from 'react';
 import { Card, CardTitle, CardText, CardActions, FABButton } from 'react-mdl';
-// import LaboratoriaLogo from '../../Assets/LaboratoriaLok.png';
-// import FacDerechoLogo from '../../Assets/FacDereechoAzulok.jpg';
 import cvViLara from '../../Documents/vianeyLaraCV.pdf';
 
 class PersonalCard extends React.Component {
@@ -12,9 +10,6 @@ class PersonalCard extends React.Component {
                 <CardTitle expand
                     className="card-title">
                     <div className="presentation-icon">
-                        
-                        {/* <img src={LaboratoriaLogo} alt="LaboratoriaLogo" className="logo-labo" />
-                        <img src={FacDerechoLogo} alt="FacDerechoLogo" className="logo-facderecho" /> */}
                         <i className="fas fa-map-marker-alt">
                             <p className="p-fa-map-marker-alt">CDMX</p>
                         </i>

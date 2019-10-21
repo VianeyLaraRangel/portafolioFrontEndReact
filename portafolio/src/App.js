@@ -7,6 +7,10 @@ import { Link } from 'react-router-dom';
 import './App.css';
 import './Responsive.css';
 
+import LaboratoriaLogo from './Assets/LaboratoriaLok.png';
+import FacDerechoLogo from './Assets/FacDereechoAzulok.jpg';
+
+
 class App extends Component {
   render () {
       return (
@@ -27,9 +31,18 @@ class App extends Component {
                 className="hamburguer-menu">
                         <div className="box-logo-drawer">
                             <img
-                                src="https://i.ibb.co/LNy2vrW/melted-Rubik-ok.png"
-                                alt="MeltedRubik"
-                                className="avatar-img-drawer"
+                                src={LaboratoriaLogo}
+                                width="100"
+                                height="100"
+                                alt="simpleLaboratoriaLogo"
+                                className="labo-logo"
+                            />
+                            <img
+                                src={FacDerechoLogo}
+                                width="80"
+                                height="110"
+                                alt="unamDerechoLogo"
+                                className="ius-logo"
                             />
                         </div>
                     <Navigation className="link-mobile">
