@@ -13,7 +13,7 @@ body {
     background-color: #383536;
 }
 
-.fa, .fas {
+.fa, .fas, .far {
     font-family: "Font Awesome 5 Pro" !important;
 }
 
@@ -29,8 +29,7 @@ body {
 
 .presentation-text {
     display: block;
-    color: #E8EAE1;
-
+    color: #383536;
 }
 
 /*Principal components/views styles*/
@@ -44,7 +43,7 @@ body {
     font-family: 'Oswald', sans-serif !important;
 }
 
-.mdl-navigation__link{
+.mdl-navigation__li3k{
     color: white !important;
 }
 
@@ -56,13 +55,6 @@ body {
     width: 15rem !important;
 }
 
-/*SideMenu of hamburguerIcon styles*/
-/*LandingView styles*/
-/* .avatar-img {
-    border-top-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-} */
-
 /*Icon into sidebar of hamburguer icon (supposing to users click)*/
 .box-logo-drawer {
     display: flex;
@@ -72,6 +64,9 @@ body {
 }
 
 /*LandingView styles*/
+.container{
+    display: flex;
+}
 .avatar-img-drawer {
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
@@ -81,10 +76,11 @@ body {
 }
 
 .card-box {
-    width: 60rem !important;
+    width: 33rem !important;
     height: 35rem;
     background-color: #E8EAE1 !important;
-    text-align: center;
+    text-align: center; 
+    position: relative;
 }
 
 .card-title, .mdl-card__title {
@@ -94,15 +90,15 @@ body {
     background-image: url(https://i.ibb.co/0ZQgcxK/vianeylara-1-1.jpg);
     background-size: 17rem;
     background-repeat: no-repeat;
-    background-position: 0% 50%;
+    background-position: 5% 50%;
 }
 
 .mdl-card__supporting-text, p {
-    background-color: #e03c31;
+    background-color: #9F9F9F;
 }
 
 .presentation-box {
-    width: 100% !important;
+    width: 95% !important;
 }
 
 .mdl-button--fab {
@@ -119,10 +115,10 @@ i {
     font-size: 2.3rem !important;
 }
 
-.fa-map-marker-alt, .p-fa-map-marker-alt{
+.fa-map-marker-alt, .fa-clock, .fa-mail-bulk, .presentation-icon{
     display: flex;
-    width: 3rem;
-    justify-content: center;
+    width: 13rem;
+    padding: .5rem;
     align-self: flex-end;
     color:#e03c31 !important;
     background-color: transparent;
