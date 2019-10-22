@@ -64,8 +64,15 @@ Less grey #9F9F9F*/
     .card-box {
         width: 20.5rem !important;
         height: 35rem;
+        left: 3%;
+        top: .5rem;
         background-color: #383536 !important;
         text-align: center;
+        box-shadow: #9f9f9f;
+        /*From https://www.cssmatic.com/box-shadow*/
+        -webkit-box-shadow: -13px -13px 4px -8px rgba(56,53,54,0.63);
+        -moz-box-shadow: -13px -13px 4px -8px rgba(56,53,54,0.63);
+        box-shadow: -13px -13px 4px -8px rgba(56,53,54,0.63);
     }
 
     .card-title, .mdl-card__title {
