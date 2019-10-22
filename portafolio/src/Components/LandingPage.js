@@ -9,14 +9,14 @@ class Landing extends Component {
         return (
             <div >
                 <Grid className="landing-grid">
-                    <Cell col={12}>
-                        <img
+                    {/* <Cell col={12}> */}
+                        {/* <img
                             src="https://i.ibb.co/9V94KV9/vianeylara.jpg"
                             alt="VianeyLara´s pic"
                             className="avatar-img"
-                        />
+                        /> */}
                         <PersonalCard />
-                    </Cell>
+                    {/* </Cell> */}
                 </Grid>
             </div>
         );

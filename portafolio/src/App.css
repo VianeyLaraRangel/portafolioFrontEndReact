@@ -6,17 +6,32 @@ Viwhite #E8EAE1*/
 
 /*General styles*/
 * {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif !important;
 }
 
 body {
     background-color: #383536;
 }
 
+.fa, .fas {
+    font-family: "Font Awesome 5 Pro" !important;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands" !important;
+}
+
 /*Not showing in desktop*/
-.material-icons {
+.material-icons, .logo-brand {
     display: none !important;
+    font-family: 'Material Icons' !important;
     }
+
+.presentation-text {
+    display: block;
+    color: #E8EAE1;
+
+}
 
 /*Principal components/views styles*/
 
@@ -29,6 +44,10 @@ body {
     font-family: 'Oswald', sans-serif !important;
 }
 
+.mdl-navigation__link{
+    color: white !important;
+}
+
 .mdl-layout__drawer-button {
     background-image: url(https://i.ibb.co/KxcCvFf/logo-Vi-La-Ra2-2-ok.png);
     background-repeat: no-repeat;
@@ -37,21 +56,76 @@ body {
     width: 15rem !important;
 }
 
-
-/* .box-logo{
-    display: flex;
-    justify-content: flex-start;
-} */
-
 /*SideMenu of hamburguerIcon styles*/
-.mdl-layout__drawer.is-visible {
-    background-color: white;
-    color: #000000;
-}    
-
 /*LandingView styles*/
-.avatar-img {
+/* .avatar-img {
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
+} */
+
+/*Icon into sidebar of hamburguer icon (supposing to users click)*/
+.box-logo-drawer {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 2rem;
 }
+
+/*LandingView styles*/
+.avatar-img-drawer {
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.card-box {
+    width: 60rem !important;
+    height: 35rem;
+    background-color: #E8EAE1 !important;
+    text-align: center;
+}
+
+.card-title, .mdl-card__title {
+    display: flex !important;
+    justify-content: flex-end !important;
+    background-color: #E8EAE1 ;
+    background-image: url(https://i.ibb.co/0ZQgcxK/vianeylara-1-1.jpg);
+    background-size: 17rem;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+}
+
+.mdl-card__supporting-text, p {
+    background-color: #e03c31;
+}
+
+.presentation-box {
+    width: 100% !important;
+}
+
+.mdl-button--fab {
+    margin: 0.2rem 1.3rem 0.2rem 1rem !important;
+    background-color: #383536 !important;
+}
+
+a , .fas {
+    color: white !important;
+}
+
+i {
+    background-color: #383536;
+    font-size: 2.3rem !important;
+}
+
+.fa-map-marker-alt, .p-fa-map-marker-alt{
+    display: flex;
+    width: 3rem;
+    justify-content: center;
+    align-self: flex-end;
+    color:#e03c31 !important;
+    background-color: transparent;
+}
+
 
