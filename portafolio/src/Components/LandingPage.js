@@ -1,6 +1,7 @@
 //This view shows a quickly view of me
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid } from 'react-mdl';
+// Cell
 
 import PersonalCard from "./Card/PersonalCard";
 
