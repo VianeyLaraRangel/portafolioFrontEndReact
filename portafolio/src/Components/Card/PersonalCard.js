@@ -1,9 +1,15 @@
 // This components is a child for a view/component LandingPage.
 import React from 'react';
 import { Card, CardTitle, CardText, CardActions, FABButton } from 'react-mdl';
+import { withRouter } from 'react-router-dom';
+
 import cvViLara from '../../Documents/vianeyLaraCV.pdf';
 
 class PersonalCard extends React.Component {
+    handleClick(ev) {
+        ev.preventDefault();
+        this.props.history.push('/');
+    }
     render() {
         return (
             <div className="card-container">
@@ -57,4 +63,4 @@ class PersonalCard extends React.Component {
     }
 }
 
-export default PersonalCard;
+export default withRouter(PersonalCard);
