@@ -43,10 +43,6 @@ body {
     font-family: 'Oswald', sans-serif !important;
 }
 
-.mdl-navigation__li3k{
-    color: white !important;
-}
-
 .mdl-layout__drawer-button {
     background-image: url(https://i.ibb.co/KxcCvFf/logo-Vi-La-Ra2-2-ok.png);
     background-repeat: no-repeat;
@@ -67,6 +63,7 @@ body {
 .container{
     display: flex;
 }
+
 .avatar-img-drawer {
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
@@ -102,6 +99,7 @@ body {
     width: 95% !important;
 }
 
+/*ActionButton Card*/
 .mdl-button--fab {
     margin: 0.2rem 1.3rem 0.2rem 1rem !important;
     background-color: #383536 !important;
@@ -115,6 +113,14 @@ i {
     background-color: #383536;
     font-size: 2.3rem !important;
 }
+
+#anima {
+    transition: transform 0.2s linear;
+  }
+  
+  .mdl-button--fab:hover {
+    transform: translateY(-10px);
+  }
 
 .fa-map-marker-alt, .fa-clock, .fa-mail-bulk, .presentation-icon{
     display: flex;
