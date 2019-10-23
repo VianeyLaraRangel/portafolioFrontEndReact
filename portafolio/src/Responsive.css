@@ -64,8 +64,8 @@ Less grey #9F9F9F*/
     .card-box {
         width: 20.5rem !important;
         height: 35rem;
-        left: 3%;
-        top: .5rem;
+        left: 0%;
+        top: .3rem;
         background-color: #383536 !important;
         text-align: center;
         box-shadow: #9f9f9f;

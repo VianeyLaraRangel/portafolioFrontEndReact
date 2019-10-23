@@ -9,7 +9,7 @@ class Landing extends Component {
         return (
             <div >
                 <Grid className="landing-grid">
-                    <Cell col={4} tablet={6} phone={12}>
+                    <Cell col={12} tablet={8} phone={2}>
                         <PersonalCard />
                     </Cell>
                 </Grid>

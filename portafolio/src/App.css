@@ -105,22 +105,22 @@ body {
     background-color: #383536 !important;
 }
 
-a , .fas {
-    color: white !important;
+.mdl-button--fab:hover {
+    transform: translateY(-10px);
 }
 
-i {
-    background-color: #383536;
-    font-size: 2.3rem !important;
-}
-
-#anima {
+    #anima {
     transition: transform 0.2s linear;
   }
-  
-  .mdl-button--fab:hover {
-    transform: translateY(-10px);
-  }
+
+    a , .fas {
+        color: white !important;
+    }
+
+    i {
+        background-color: #383536;
+        font-size: 2.3rem !important;
+    }
 
 .fa-map-marker-alt, .fa-clock, .fa-mail-bulk, .presentation-icon{
     display: flex;
