@@ -138,3 +138,8 @@ body {
     margin-top: .5rem;
 }
 
+.aboutme-text p {
+    background-color: #E8EAE1;
+    margin: 1rem;
+    text-align: justify;
+}
