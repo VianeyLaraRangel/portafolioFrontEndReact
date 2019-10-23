@@ -131,4 +131,10 @@ body {
     background-color: transparent;
 }
 
+/*AboutMeView styles*/
+.home-btn-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: .5rem;
+}
 
