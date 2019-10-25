@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import AboutmeTab from './AboutmeTab/AboutmeTab';
 
-class About  extends Component {
+class About extends Component {
     render() {
-        return(
-            <div><h1>Acerca de mí</h1></div>
+        return (
+            <section className="container-aboutme">
+                <AboutmeTab />
+            </section>
         );
     }
 }

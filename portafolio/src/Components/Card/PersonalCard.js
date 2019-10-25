@@ -11,7 +11,7 @@ class PersonalCard extends React.Component {
             <Card className="card-box">
                 <CardTitle expand
                     className="card-title">
-                    <section>
+                    <section className="detail-icon">
                         <i className="fas fa-map-marker-alt">
                             <p className="presentation-icon">CDMX</p>
                         </i>

@@ -7,6 +7,9 @@ Viwhite #E8EAE1*/
 /*General styles*/
 * {
     font-family: 'Oswald', sans-serif !important;
+    font-size: 18px;
+    box-sizing: border-box;
+    /* border: solid black .3px; */
 }
 
 body {
@@ -22,7 +25,7 @@ body {
 }
 
 /*Not showing in desktop*/
-.material-icons, .logo-brand {
+.material-icons, .logo-brand, .home-icon {
     display: none !important;
     font-family: 'Material Icons' !important;
     }
@@ -39,16 +42,17 @@ body {
     background: #e03c31 !important;
 }
 
-.mdl-layout-title {
-    font-family: 'Oswald', sans-serif !important;
-}
-
 .mdl-layout__drawer-button {
     background-image: url(https://i.ibb.co/KxcCvFf/logo-Vi-La-Ra2-2-ok.png);
     background-repeat: no-repeat;
     background-position: 0% 50%;
     background-size: 12rem;
     width: 15rem !important;
+}
+
+/*Home button*/
+.mdl-navigation, ul {
+    list-style: none;   
 }
 
 /*Icon into sidebar of hamburguer icon (supposing to users click)*/
@@ -60,10 +64,6 @@ body {
 }
 
 /*LandingView styles*/
-.container{
-    display: flex;
-}
-
 .avatar-img-drawer {
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
@@ -96,7 +96,7 @@ body {
 }
 
 .presentation-box {
-    width: 95% !important;
+    width: 100% !important;
 }
 
 /*ActionButton Card*/
@@ -117,18 +117,44 @@ body {
         color: white !important;
     }
 
-    i {
+    i{
         background-color: #383536;
         font-size: 2.3rem !important;
     }
 
+    .fa-home {
+        background-color: #e03c31 !important
+    }
+
 .fa-map-marker-alt, .fa-clock, .fa-mail-bulk, .presentation-icon{
     display: flex;
-    width: 13rem;
+    width: 14rem;
     padding: .5rem;
     align-self: flex-end;
     color:#e03c31 !important;
     background-color: transparent;
 }
 
+/*AboutMeView styles*/
+.home-btn-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: .5rem;
+}
+
+.container-aboutme, p {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: justify;
+    letter-spacing: unset;
+}
+
+.aboutme-tabs {
+    background-color: #E8EAE1;
+}
+
+.mdl-tabs__tab-bar {
+    background-color: #383536;
+    height: 3rem !important;
+}
 
