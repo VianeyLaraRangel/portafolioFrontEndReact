@@ -2,13 +2,15 @@
 import React, { Component } from 'react';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './Components/Main';
-import { Link } from 'react-router-dom';
+import { Link , Switch , Route } from 'react-router-dom';
 
 import './App.css';
 import './Responsive.css';
 
 import LaboratoriaLogo from './Assets/LaboratoriaLok.png';
 // import LogoBrand from './Assets/logoViLaRaRecortado.png';
+
+import HomeBtn from './Components/HomeButton/HomeBtn'
 
 class App extends Component {
   render () {
@@ -24,6 +26,13 @@ class App extends Component {
                         <Link to="/projects">Proyectos</Link>
                         <Link to="/resume">Experiencia</Link>
                         <Link to="/contact">Contacto</Link>
+                    </Navigation>
+                    <Navigation>
+                        <Switch>
+                            <Route path="/">
+                                <HomeBtn />
+                            </Route>
+                        </Switch>
                     </Navigation>
                 </Header>
                 <Drawer 

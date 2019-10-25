@@ -14,7 +14,7 @@ Less grey #9F9F9F*/
     }
 
     /*To show in responsive*/
-    .mdl-layout__header,.mdl-layout__drawer-button, .material-icons, .logo-brand, .mdl-navigation__link, .link-mobile, .avatar-img-drawer {
+    .mdl-layout__header,.mdl-layout__drawer-button, .material-icons, .logo-brand, .mdl-navigation__link, .link-mobile, .avatar-img-drawer, .home-icon {
         display: block !important;
     }
 
@@ -41,6 +41,10 @@ Less grey #9F9F9F*/
     .logo-brand {
         width: 18rem;
         margin-right: .3rem;
+    }
+    
+    .mdl-navigation, ul {
+        list-style: none;   
     }
 
     /*SideMenu of hamburguerIcon styles*/
@@ -97,7 +101,7 @@ Less grey #9F9F9F*/
         background-color: white !important;
     }
 
-    a , .fas {
+    a , .fas:not(.fa-home) {
         color: #383536 !important;
     }
 
