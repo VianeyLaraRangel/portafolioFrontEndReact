@@ -1,7 +1,9 @@
 // This components is a child for component/view AboutMe 
-import React from 'react';
+import React, {Component} from 'react';
 import { Tabs, Tab, Grid, Cell } from 'react-mdl';
 import { withRouter } from 'react-router';
+
+import ListOfTech from '../ListForTech/List';
 
 // Simple header with scrollable tabs
 class AboutmeTab extends React.Component {
@@ -13,7 +15,9 @@ class AboutmeTab extends React.Component {
     toggleCategories() {
         if (this.state.activeTab === 0) {
             return (
-                <div>tecnologias</div>
+                <div>
+                    <ListOfTech />
+                </div>
             )
         } else if (this.state.activeTab === 1) {
             return (
