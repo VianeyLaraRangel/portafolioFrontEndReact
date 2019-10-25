@@ -19,61 +19,61 @@ class ListOfTech extends React.Component {
             <List style={{ width: '300px' }}>
                 <ListItem>
                     <ListItemContent>
-                        <img src={ReactLogo} className="tech-logo"></img>
+                        <img src={ReactLogo} className="tech-logo" alt="react-logo"></img>
                         REACT
                     </ListItemContent>
                 </ListItem>
                 <ListItem className="techIcon-box">
                     <ListItemContent>
-                        <img src={Javascript} className="tech-logo" ></img>
+                        <img src={Javascript} className="tech-logo" alt="javascript-logo"></img>
                         JAVASCRIPT ECMA6
                     </ListItemContent>
                 </ListItem>
                 <ListItem>
                     <ListItemContent>
-                        <img src={Html} className="tech-logo"></img>
+                        <img src={Html} className="tech-logo" alt="html-logo"></img>
                         HTML5
                     </ListItemContent>
                 </ListItem>
                 <ListItem>
                     <ListItemContent>
-                        <img src={Css} className="tech-logo"></img>
+                        <img src={Css} className="tech-logo" alt="css-logo"></img>
                         CSS3
                     </ListItemContent>
                 </ListItem>
                 <ListItem>
                     <ListItemContent>
-                        <img src={Git} className="tech-logo"></img>
+                        <img src={Git} className="tech-logo" alt="git-logo"></img>
                         GIT
                     </ListItemContent>
                 </ListItem>
                 <ListItem>
                     <ListItemContent>
-                        <img src={GitHub} className="tech-logo"></img>
+                        <img src={GitHub} className="tech-logo" alt="github-logo"></img>
                         GITHUB
                     </ListItemContent>
                 </ListItem>
                 <ListItem>
                     <ListItemContent>
-                        <img src={Firebase} className="tech-logo"></img>
+                        <img src={Firebase} className="tech-logo" alt="firebase-logo"></img>
                         FIREBASE
                     </ListItemContent>
                 </ListItem>
                 <ListItem>
                     <ListItemContent>
-                        <img src={Node} className="tech-logo"></img>
+                        <img src={Node} className="tech-logo" alt="node-logo"></img>
                         NODE
                     </ListItemContent>
                 </ListItem>
                 <ListItem>
                     <ListItemContent>
-                        <img src={Reactstrap} className="tech-logo"></img>
+                        <img src={Reactstrap} className="tech-logo" alt="reactstrap-logo"></img>
                         REACTSTRAP
                     </ListItemContent>
                 </ListItem>
                 <ListItem>
                     <ListItemContent>
-                        <img src={VSC} className="tech-logo"></img>
+                        <img src={VSC} className="tech-logo" alt="vsc-logo"></img>
                         VISUAL STUDIO CODE
                     </ListItemContent>
                 </ListItem>

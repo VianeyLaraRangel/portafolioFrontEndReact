@@ -1,5 +1,5 @@
 // This components is a child for component/view AboutMe 
-import React, {Component} from 'react';
+import React from 'react';
 import { Tabs, Tab, Grid, Cell } from 'react-mdl';
 import { withRouter } from 'react-router';
 
