@@ -143,10 +143,18 @@ body {
 }
 
 .container-aboutme, p {
-    background-color: white;
     margin: 1rem;
-    padding: 10px 45px 10px;
+    padding: 1rem;
     text-align: justify;
     letter-spacing: unset;
+}
+
+.aboutme-tabs {
+    background-color: #E8EAE1;
+}
+
+.mdl-tabs__tab-bar {
+    background-color: #383536;
+    height: 3rem !important;
 }
 
