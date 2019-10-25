@@ -126,7 +126,7 @@ body {
         background-color: #e03c31 !important
     }
 
-.fa-map-marker-alt, .fa-clock, .fa-mail-bulk, .presentation-icon{
+.fa-map-marker-alt, .fa-whatsapp, .fa-clock, .fa-mail-bulk, .presentation-icon{
     display: flex;
     width: 14rem;
     padding: .5rem;
