@@ -17,6 +17,12 @@ class ListOfTech extends React.Component {
     render() {
         return (
             <List style={{ width: '300px' }}>
+                <ListItem>
+                    <ListItemContent>
+                        <img src={ReactLogo} className="tech-logo"></img>
+                        REACT
+                    </ListItemContent>
+                </ListItem>
                 <ListItem className="techIcon-box">
                     <ListItemContent>
                         <img src={Javascript} className="tech-logo" ></img>
@@ -57,12 +63,6 @@ class ListOfTech extends React.Component {
                     <ListItemContent>
                         <img src={Node} className="tech-logo"></img>
                         NODE
-                    </ListItemContent>
-                </ListItem>
-                <ListItem>
-                    <ListItemContent>
-                        <img src={ReactLogo} className="tech-logo"></img>
-                        REACT
                     </ListItemContent>
                 </ListItem>
                 <ListItem>
