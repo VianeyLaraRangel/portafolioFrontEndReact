@@ -119,4 +119,18 @@ Less grey #9F9F9F*/
         color:#e03c31 !important;
         background-color: transparent;
     }
+
+    /*AboutMe styles*/
+    .aboutme-tabs {
+        background-color: #E8EAE1;
+    }
+    
+    .mdl-tabs__tab-bar {
+        background-color: #383536;
+    }
+
+    .mdl-tabs__tab {
+        color: white !important;
+        font-size: .8rem !important;;
+    }
 }
