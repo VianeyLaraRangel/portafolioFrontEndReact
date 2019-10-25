@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import AboutmeTab from './AboutmeTab/AboutmeTab';
 
 class About extends Component {
     render() {
         return (
             <section className="container-aboutme">
+                <AboutmeTab />
                     <article>
                         <h4>¡Bienvenida/o!</h4>
                         <h5>
