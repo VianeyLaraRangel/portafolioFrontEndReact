@@ -7,6 +7,9 @@ Viwhite #E8EAE1*/
 /*General styles*/
 * {
     font-family: 'Oswald', sans-serif !important;
+    font-size: 18px;
+    box-sizing: border-box;
+    /* border: solid white .3px; */
 }
 
 body {
@@ -39,10 +42,6 @@ body {
     background: #e03c31 !important;
 }
 
-.mdl-layout-title {
-    font-family: 'Oswald', sans-serif !important;
-}
-
 .mdl-layout__drawer-button {
     background-image: url(https://i.ibb.co/KxcCvFf/logo-Vi-La-Ra2-2-ok.png);
     background-repeat: no-repeat;
@@ -65,10 +64,6 @@ body {
 }
 
 /*LandingView styles*/
-.container{
-    display: flex;
-}
-
 .avatar-img-drawer {
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
@@ -101,7 +96,7 @@ body {
 }
 
 .presentation-box {
-    width: 95% !important;
+    width: 100% !important;
 }
 
 /*ActionButton Card*/
@@ -133,7 +128,7 @@ body {
 
 .fa-map-marker-alt, .fa-clock, .fa-mail-bulk, .presentation-icon{
     display: flex;
-    width: 13rem;
+    width: 14rem;
     padding: .5rem;
     align-self: flex-end;
     color:#e03c31 !important;
@@ -147,11 +142,11 @@ body {
     margin-top: .5rem;
 }
 
-/* .container-aboutme {
-    background-color: #E8EAE1;
-} */
-.aboutme-text p {
-    background-color: #E8EAE1;
+.container-aboutme, p {
+    background-color: white;
     margin: 1rem;
+    padding: 10px 45px 10px;
     text-align: justify;
+    letter-spacing: unset;
 }
+
