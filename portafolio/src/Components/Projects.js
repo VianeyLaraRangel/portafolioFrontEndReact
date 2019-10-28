@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import ProjectCard from './Card/ProyectCard';
 
 class Projects  extends Component {
     render() {
         return(
-            <div><h1>Proyectos</h1></div>
+            <div>
+                <ProjectCard />
+            </div>
         );
     }
 }
