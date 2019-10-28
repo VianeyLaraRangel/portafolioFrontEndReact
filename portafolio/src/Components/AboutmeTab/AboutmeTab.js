@@ -3,7 +3,8 @@ import React from 'react';
 import { Tabs, Tab, Grid, Cell } from 'react-mdl';
 import { withRouter } from 'react-router';
 
-import ListOfTech from '../ListForTech/List';
+import ListOfTech from '../ListForTech/TechList';
+import ListOfSoft from '../ListForTech/SoftList'
 
 // Simple header with scrollable tabs
 class AboutmeTab extends React.Component {
@@ -21,7 +22,7 @@ class AboutmeTab extends React.Component {
             )
         } else if (this.state.activeTab === 1) {
             return (
-                <div>Habilidades</div>
+                <ListOfSoft/>
             )
         } else if (this.state.activeTab === 2) {
             return (

@@ -163,3 +163,15 @@ body {
    margin-right: 1rem;
 }
 
+.softIcon-box {
+    font-size: 0rem !important;
+}
+
+.soft-skills-logo {
+    width: 5rem; 
+    margin-right: .5rem;
+    margin: auto;
+    padding-right: 5px;
+
+}
+
