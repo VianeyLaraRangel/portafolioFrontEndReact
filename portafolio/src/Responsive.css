@@ -88,7 +88,7 @@ Less grey #9F9F9F*/
         background-position: 50% 50%;
     }
 
-    .mdl-card__supporting-text, p{
+    .mdl-card__supporting-text, p {
         background-color: #e03c31;
     }
 
@@ -133,8 +133,16 @@ Less grey #9F9F9F*/
         color: white !important;
         font-size: .8rem !important;;
     }
-/* 
-    .logo-js {
-        width: 5%;
-    } */
+
+    /*Porjects View styles*/
+    .mdl-card__supporting-text , .project-card {
+        background-color: #E8EAE1;
+        width: 100% !important;
+        color: black !important;
+    }
+
+    .project-technologies , .img-tech {
+        width: 2rem;
+    }
+
 }
