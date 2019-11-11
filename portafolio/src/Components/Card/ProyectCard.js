@@ -77,8 +77,16 @@ class ProjectCard extends React.Component {
                         <CardTitle style={{ color: '#000000', height: '15rem', background: 'url(https://i.ibb.co/fMNFm2m/this4that-Screen.png) left / cover' }}>
                         </CardTitle>
                         <CardText className="project-card">
-                            <h6>POKEPEDIA</h6>
-                            Responsive webApp que permite filtrar por tipo y debilidades el listado de la 1° generacion de pokemones. Dirigido a nostálgicos de la serie.
+                            <h6>This4That</h6>
+                            MVP responsive + chatbot(IBM cloud). Proyecto desarrollado en hackaton de 8hrs
+                             para el cierre de la IBM Week en Laboratoria, utiliza
+                             un chatbot entrenado que se entrena con la Inteligencia Artificial "Watson" en la 
+                             plataforma IBM Cloud.
+
+                             This4That es la propuesta realizada a "Frida" una emprendedora de Victoria 147,
+                             que busca en el trueque la forma de impactar la ecología y la economía.
+                             Nuestro equipo "Ampersand" utilizó metodologías cómo Design thinking, del cuál IBM
+                              nos dió un taller de 8hrs.
                         </CardText>
                         <CardText className="project-technologies">
                             <img src={js} alt="tecnologias-logo" className="img-tech"></img>
