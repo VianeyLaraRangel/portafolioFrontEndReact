@@ -9,6 +9,9 @@ import css from '../../Assets/css3Logo.png';
 import bootstrap from '../../Assets/bootstrapLogo.jpg';
 import firebase from '../../Assets/firebaseLogo.png';
 import react from '../../Assets/reactLogo.png';
+import ibm from '../../Assets/ibmLogo.png';
+import watson from '../../Assets/watson-ibm-logo.jpg';
+
 
 class ProjectCard extends React.Component {
     render() {
@@ -44,7 +47,7 @@ class ProjectCard extends React.Component {
                 {/* Social Network Card */}
                 <div>
                     <Card shadow={0} style={{ width: '20rem', margin: '1rem' }}>
-                        <CardTitle style={{ color: '#000000', height: '15rem', background: 'url(https://i.ibb.co/kHjr7Zj/hopaki-Screen.png) left / cover'}}>
+                        <CardTitle style={{ color: '#000000', height: '15rem', background: 'url(https://i.ibb.co/kHjr7Zj/hopaki-Screen.png) left / cover' }}>
                         </CardTitle>
                         <CardText className="project-card">
                             <h6>HOPAKI</h6>
@@ -71,14 +74,20 @@ class ProjectCard extends React.Component {
                 {/* This4That Card */}
                 <div>
                     <Card shadow={0} style={{ width: '20rem', margin: '1rem' }}>
-                        <CardTitle style={{ color: '#000000', height: '15rem', background: 'url(https://i.ibb.co/12Shwsd/pokepedia-Screenshot.png) left / cover' }}>
+                        <CardTitle style={{ color: '#000000', height: '15rem', background: 'url(https://i.ibb.co/fMNFm2m/this4that-Screen.png) left / cover' }}>
                         </CardTitle>
                         <CardText className="project-card">
                             <h6>POKEPEDIA</h6>
                             Responsive webApp que permite filtrar por tipo y debilidades el listado de la 1° generacion de pokemones. Dirigido a nostálgicos de la serie.
                         </CardText>
                         <CardText className="project-technologies">
+                            <img src={js} alt="tecnologias-logo" className="img-tech"></img>
                             <img src={html} alt="tecnologias-logo" className="img-tech"></img>
+                            <img src={css} alt="tecnologias-logo" className="img-tech"></img>
+                            <img src={firebase} alt="tecnologias-logo" className="img-tech"></img>
+                            <img src={bootstrap} alt="tecnologias-logo" className="img-tech"></img>
+                            <img src={ibm} alt="tecnologias-logo" className="img-tech"></img>
+                            <img src={watson} alt="tecnologias-logo" className="img-tech"></img>
                         </CardText>
                         <CardActions>
                             <Button colored href="https://vianeylararangel.github.io/MEX-Data-Lovers-008/src/index.html" target="_blank">
