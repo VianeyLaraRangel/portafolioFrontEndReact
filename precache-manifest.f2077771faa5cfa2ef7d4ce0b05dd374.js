@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c6e6029eb4f0f379b563f3ce18d80067",
+    "revision": "30406d09f1959ff2bffff4742e0b84bb",
     "url": "/portafolioReact/index.html"
   },
   {
-    "revision": "58060e209c222a1203e8",
+    "revision": "ccf4a4e4c6f016f6be8d",
     "url": "/portafolioReact/static/css/2.04aae6c4.chunk.css"
   },
   {
-    "revision": "928ca5ce97e2dc665433",
-    "url": "/portafolioReact/static/css/main.1edd2f44.chunk.css"
+    "revision": "13efeb1fb14b6554c446",
+    "url": "/portafolioReact/static/css/main.a272c0e6.chunk.css"
   },
   {
-    "revision": "58060e209c222a1203e8",
-    "url": "/portafolioReact/static/js/2.25d3b00c.chunk.js"
+    "revision": "ccf4a4e4c6f016f6be8d",
+    "url": "/portafolioReact/static/js/2.4ad40015.chunk.js"
   },
   {
-    "revision": "928ca5ce97e2dc665433",
-    "url": "/portafolioReact/static/js/main.c7d5806f.chunk.js"
+    "revision": "13efeb1fb14b6554c446",
+    "url": "/portafolioReact/static/js/main.3cc7bb46.chunk.js"
   },
   {
     "revision": "ae8a127e823ffcb46ef5",
@@ -74,5 +74,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "da7d3b31b105e328aee14e463c33024c",
     "url": "/portafolioReact/static/media/vianeyLaraCV.da7d3b31.pdf"
+  },
+  {
+    "revision": "be9a12d82279b2717b435992b2e0aef4",
+    "url": "/portafolioReact/static/media/watson-ibm-logo.be9a12d8.jpg"
   }
 ]);

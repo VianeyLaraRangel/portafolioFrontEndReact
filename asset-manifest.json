@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portafolioReact/static/css/main.1edd2f44.chunk.css",
-    "main.js": "/portafolioReact/static/js/main.c7d5806f.chunk.js",
-    "main.js.map": "/portafolioReact/static/js/main.c7d5806f.chunk.js.map",
+    "main.css": "/portafolioReact/static/css/main.a272c0e6.chunk.css",
+    "main.js": "/portafolioReact/static/js/main.3cc7bb46.chunk.js",
+    "main.js.map": "/portafolioReact/static/js/main.3cc7bb46.chunk.js.map",
     "runtime-main.js": "/portafolioReact/static/js/runtime-main.a20960c4.js",
     "runtime-main.js.map": "/portafolioReact/static/js/runtime-main.a20960c4.js.map",
     "static/css/2.04aae6c4.chunk.css": "/portafolioReact/static/css/2.04aae6c4.chunk.css",
-    "static/js/2.25d3b00c.chunk.js": "/portafolioReact/static/js/2.25d3b00c.chunk.js",
-    "static/js/2.25d3b00c.chunk.js.map": "/portafolioReact/static/js/2.25d3b00c.chunk.js.map",
+    "static/js/2.4ad40015.chunk.js": "/portafolioReact/static/js/2.4ad40015.chunk.js",
+    "static/js/2.4ad40015.chunk.js.map": "/portafolioReact/static/js/2.4ad40015.chunk.js.map",
     "index.html": "/portafolioReact/index.html",
-    "precache-manifest.b1d43916500090a74c0c9ef408caf672.js": "/portafolioReact/precache-manifest.b1d43916500090a74c0c9ef408caf672.js",
+    "precache-manifest.f2077771faa5cfa2ef7d4ce0b05dd374.js": "/portafolioReact/precache-manifest.f2077771faa5cfa2ef7d4ce0b05dd374.js",
     "service-worker.js": "/portafolioReact/service-worker.js",
     "static/css/2.04aae6c4.chunk.css.map": "/portafolioReact/static/css/2.04aae6c4.chunk.css.map",
-    "static/css/main.1edd2f44.chunk.css.map": "/portafolioReact/static/css/main.1edd2f44.chunk.css.map",
+    "static/css/main.a272c0e6.chunk.css.map": "/portafolioReact/static/css/main.a272c0e6.chunk.css.map",
     "static/media/autoaprendizajeIcon.png": "/portafolioReact/static/media/autoaprendizajeIcon.02ffd249.png",
     "static/media/autogestionIcon.png": "/portafolioReact/static/media/autogestionIcon.0ce148dc.png",
     "static/media/ayudaIcon.png": "/portafolioReact/static/media/ayudaIcon.e0195840.png",
@@ -25,13 +25,14 @@
     "static/media/nodeLogo.png": "/portafolioReact/static/media/nodeLogo.7ba91a75.png",
     "static/media/trabajoequipoIcon.png": "/portafolioReact/static/media/trabajoequipoIcon.b08428f8.png",
     "static/media/usercentricityIcon.png": "/portafolioReact/static/media/usercentricityIcon.e500eb97.png",
-    "static/media/vianeyLaraCV.pdf": "/portafolioReact/static/media/vianeyLaraCV.da7d3b31.pdf"
+    "static/media/vianeyLaraCV.pdf": "/portafolioReact/static/media/vianeyLaraCV.da7d3b31.pdf",
+    "static/media/watson-ibm-logo.jpg": "/portafolioReact/static/media/watson-ibm-logo.be9a12d8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a20960c4.js",
     "static/css/2.04aae6c4.chunk.css",
-    "static/js/2.25d3b00c.chunk.js",
-    "static/css/main.1edd2f44.chunk.css",
-    "static/js/main.c7d5806f.chunk.js"
+    "static/js/2.4ad40015.chunk.js",
+    "static/css/main.a272c0e6.chunk.css",
+    "static/js/main.3cc7bb46.chunk.js"
   ]
 }
