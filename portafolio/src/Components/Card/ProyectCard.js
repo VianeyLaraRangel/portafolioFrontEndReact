@@ -9,6 +9,7 @@ import css from '../../Assets/css3Logo.png';
 import bootstrap from '../../Assets/bootstrapLogo.jpg';
 import firebase from '../../Assets/firebaseLogo.png';
 import react from '../../Assets/reactLogo.png';
+import reactstrap from '../../Assets/reactstrapLogo.png'
 import ibm from '../../Assets/ibmLogo.png';
 import watson from '../../Assets/watson-ibm-logo.jpg';
 
@@ -17,8 +18,36 @@ class ProjectCard extends React.Component {
     render() {
         return (
             <div>
+                {/*Cipher card */}
                 <div>
-                    {/* DataLovers Card  */}
+                    <Card shadow={0} style={{ width: '20rem', margin: '1rem' }}>
+                        <CardTitle style={{ color: '#000000', height: '15rem', background: 'url(https://i.ibb.co/FgHyVBp/cipher-Screen.png) center / cover' }}>
+                        </CardTitle>
+                        <CardText className="project-card">
+                            <h6>DECOTIP</h6>
+                            Mi primera página web, es un encriptador de dos vías que utiliza una 
+                            <strong>llave</strong> númerica cómo seguridad y que permite que unicamente
+                            las personas que la reciban lean el mensaje encriptado.
+                            Se utilizó el concepto de cifrado César. 
+                            Para su creacción fueron utilizados fundamentos de UX design.
+                </CardText>
+                        <CardText className="project-technologies">
+                            <img src={js} alt="tecnologias-logo" className="img-tech"></img>
+                            <img src={html} alt="tecnologias-logo" className="img-tech"></img>
+                            <img src={css} alt="tecnologias-logo" className="img-tech"></img>
+                        </CardText>
+                        <CardActions>
+                            <Button colored href="https://vianeylararangel.github.io/MEX-008-Cipher/src/index.html" target="_blank">
+                                DEMO
+                            </Button>
+                            <Button colored href="https://github.com/VianeyLaraRangel/MEX-008-Cipher" target="_blank">
+                                CODIGO FUENTE
+                            </Button>
+                        </CardActions>
+                    </Card>
+                </div>
+                {/* DataLovers Card  */}
+                <div>
                     <Card shadow={0} style={{ width: '20rem', margin: '1rem' }}>
                         <CardTitle style={{ color: '#000000', height: '15rem', background: 'url(https://i.ibb.co/12Shwsd/pokepedia-Screenshot.png) left / cover' }}>
                         </CardTitle>
@@ -98,10 +127,10 @@ class ProjectCard extends React.Component {
                             <img src={watson} alt="tecnologias-logo" className="img-tech"></img>
                         </CardText>
                         <CardActions>
-                            <Button colored href="https://vianeylararangel.github.io/MEX-Data-Lovers-008/src/index.html" target="_blank">
+                            <Button colored href="https://vianeylararangel.github.io/IBM-This4That/src/index.html" target="_blank">
                                 DEMO
                             </Button>
-                            <Button colored href="https://github.com/VianeyLaraRangel/MEX-Data-Lovers-008" target="_blank">
+                            <Button colored href="https://github.com/VianeyLaraRangel/IBM-This4That" target="_blank">
                                 CODIGO FUENTE
                             </Button>
                         </CardActions>
@@ -110,20 +139,25 @@ class ProjectCard extends React.Component {
                 {/*BurguerQueen Card */}
                 <div>
                     <Card shadow={0} style={{ width: '20rem', margin: '1rem' }}>
-                        <CardTitle style={{ color: '#000000', height: '15rem', background: 'url(https://i.ibb.co/12Shwsd/pokepedia-Screenshot.png) left / cover' }}>
+                        <CardTitle style={{ color: '#000000', height: '20rem', background: 'url(https://i.ibb.co/6NXBJzf/Mesereando-PWA.png) left / cover' }}>
                         </CardTitle>
                         <CardText className="project-card">
-                            <h6>POKEPEDIA</h6>
-                            Responsive webApp que permite filtrar por tipo y debilidades el listado de la 1° generacion de pokemones. Dirigido a nostálgicos de la serie.
+                            <h6>MESEREANDO</h6>
+                            Progressive WebApp para <strong>Tableta electrónica</strong> 
                         </CardText>
                         <CardText className="project-technologies">
+                            <img src={react} alt="tecnologias-logo" className="img-tech"></img>
+                            <img src={reactstrap} alt="tecnologias-logo" className="img-tech"></img>
+                            <img src={js} alt="tecnologias-logo" className="img-tech"></img>
                             <img src={html} alt="tecnologias-logo" className="img-tech"></img>
+                            <img src={css} alt="tecnologias-logo" className="img-tech"></img>
+                            <img src={firebase} alt="tecnologias-logo" className="img-tech"></img>
                         </CardText>
                         <CardActions>
-                            <Button colored href="https://vianeylararangel.github.io/MEX-Data-Lovers-008/src/index.html" target="_blank">
+                            <Button colored href="https://eriika19.github.io/MEX008-FE-Burger-Queen/" target="_blank">
                                 DEMO
                             </Button>
-                            <Button colored href="https://github.com/VianeyLaraRangel/MEX-Data-Lovers-008" target="_blank">
+                            <Button colored href="https://github.com/VianeyLaraRangel/MEX008-FE-Burger-Queen" target="_blank">
                                 CODIGO FUENTE
                             </Button>
                         </CardActions>
