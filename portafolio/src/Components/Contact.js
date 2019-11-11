@@ -7,7 +7,7 @@ class Contact extends Component {
         return (
             <FABButton >
                 <a href="https://api.whatsapp.com/send?phone=5521013057&text=&source=&data=" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-whatsapp"></i>
+                    <i className="fab fa-whatsapp"></i>
                 </a>
             </FABButton>
         );

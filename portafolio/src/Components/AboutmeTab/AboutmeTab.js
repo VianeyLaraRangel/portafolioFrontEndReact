@@ -27,7 +27,6 @@ class AboutmeTab extends React.Component {
         } else if (this.state.activeTab === 2) {
             return (
                 <article>
-                    <h4>¡Bienvenida/o!</h4>
                     <h5>
                         Ante el panorama de la transformación digital decidí hacer carrera en la tecnología
                         para posicionarme activamente en la creación de la industria 4.0.

@@ -9,7 +9,14 @@ Less grey #9F9F9F*/
         background-color: white;
     }
     /*Not showing in responsive*/
-    .mdl-layout-title, .mdl-navigation__link, .link-desktop, .avatar-img, .presentation-text, .fa-clock, .fa-mail-bulk, .detail-icon {
+    .mdl-layout-title, 
+    .mdl-navigation__link, 
+    .link-desktop, 
+    .avatar-img, 
+    .presentation-text, 
+    .fa-clock, 
+    .fa-mail-bulk, 
+    .detail-icon {
         display: none !important;
     }
 
