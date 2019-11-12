@@ -56,6 +56,10 @@ ul {
     list-style: none;   
 }
 
+.mdl-grid {
+    justify-content: center;
+}
+
 /*Icon into sidebar of hamburguer icon (supposing to users click)*/
 .box-logo-drawer {
     display: flex;
@@ -73,14 +77,14 @@ ul {
     width: 70%;
 }
 
-.mdl-cell {
+.hero-slash {
     transform: skewX(-25deg) translateX(0);
     position: absolute;
     top: 0 !important;
-    left: -15%;
-    /* right: inherit; */
+    left: -40%;
+    right: inherit;
     bottom: 0;
-    width: 80%;
+    width: 100%;
     height: inherit;
     padding-top: 0;
     z-index: 3;
@@ -88,15 +92,13 @@ ul {
 }
 
 .card-box {
-    width: 33rem !important;
+    width: 31rem !important;
     height: 35rem;
-    margin: auto;
+    margin-left: 11rem;
     top: 1rem;
     background-color: #E8EAE1 !important;
-    border: solid 2px #383536;
+    /* border: solid 2px #383536; */
     text-align: center;
-    transition: all 500ms ease-out;
-    transform: translateY(0px) scale(1);
     transform: skewX(25deg) translateX(0);
 }
 
@@ -105,16 +107,13 @@ ul {
     justify-content: flex-end !important;
     background-color: #E8EAE1 ;
     background-image: url(https://i.ibb.co/0ZQgcxK/vianeylara-1-1.jpg);
-    background-size: 17rem;
+    background-size: 15rem;
     background-repeat: no-repeat;
     background-position: 5% 50%;
 }
 
 .mdl-card__supporting-text {
     background-color: #9F9F9F;
-}
-
-.presentation-box {
     width: 100% !important;
 }
 

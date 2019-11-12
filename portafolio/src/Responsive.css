@@ -38,9 +38,9 @@ Less grey #9F9F9F*/
         margin-top: .8rem !important;
     }
     /*SideMenu of hamburguerIcon styles*/
-        .mdl-layout__drawer {
-            width: 10rem !important;
-        }
+    .mdl-layout__drawer {
+        width: 10rem !important;
+    }
     /*icon into sidebar of hamburguer icon*/
     .box-logo-drawer {
         display: flex;
@@ -57,8 +57,10 @@ Less grey #9F9F9F*/
         color: #383536 !important;
         font-size: 1rem !important;
     }
-
     /*LandingView styles*/
+    .hero-slash {
+        left: 0%;
+    }
     .avatar-img-drawer {
         border-top-left-radius: 2rem;
         border-bottom-right-radius: 2rem;
@@ -85,6 +87,7 @@ Less grey #9F9F9F*/
         background-image: url(https://i.ibb.co/0ZQgcxK/vianeylara-1-1.jpg);
         background-repeat: no-repeat;
         background-position: 50% 50%;
+        background-size: 18rem;
     }
     .logo-brand {
         width: 18rem;
@@ -126,7 +129,6 @@ Less grey #9F9F9F*/
     .mdl-tabs__tab {
         color: white !important;
         font-size: .8rem !important;
-        ;
     }
     .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
         background: #e03c31 !important;
@@ -134,7 +136,7 @@ Less grey #9F9F9F*/
     /*Projects View styles*/
     .mdl-card__supporting-text, .project-card {
         background-color: #E8EAE1;
-        width: 100% !important;
+        width: 100%;
         color: black !important;
     }
     .project-technologies, .img-tech {
@@ -146,25 +148,27 @@ Less grey #9F9F9F*/
         background-color: white !important;
     }
 
+    .card-box-project {
+        transform: skewX(0deg) translateX(0);
+    }
+
     .project-card h5 {
         background-color: #383536;
         color: white;
         margin: .5rem;
     }
-
+    
     .project-card p {
         text-align: center;
         letter-spacing: unset;
         font-size: 15px;
     }
-
     /*Contact view styles*/
     .contact-box {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        
     }
 
     .contact-box p {
@@ -172,7 +176,7 @@ Less grey #9F9F9F*/
     }
 
     .contact-buttons {
-        display: flex;  
+        display: flex;
         flex-direction: column;
         background-color: #383536;
     }
@@ -180,5 +184,4 @@ Less grey #9F9F9F*/
     .contact-item {
         margin: .4rem !important;
     }
-
 }

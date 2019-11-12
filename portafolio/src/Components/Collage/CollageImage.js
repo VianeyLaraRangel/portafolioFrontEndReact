@@ -5,8 +5,20 @@ import { withRouter } from 'react-router';
 class PresentationCollage extends React.Component {
     render() {
         return (
-            <div>
-
+            <div className="collage-image-wrapper">
+                <section>
+                    <figure>
+                        <div></div>
+                    </figure>
+                    <figure>
+                        <div></div>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <div></div>
+                    </figure>
+                </section>
             </div>
         );
     }

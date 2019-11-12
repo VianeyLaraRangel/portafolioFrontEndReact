@@ -19,7 +19,7 @@ class ProjectCard extends React.Component {
         return (
             <div className="project-card-box">
                 {/*BurguerQueen Card */}
-                    <Card className="card-box" style={{ width: '20rem', margin: '1rem' }}>
+                    <Card className="card-box card-box-project" style={{ width: '20rem', margin: '1rem' }}>
                         <CardTitle style={{ color: '#000000', height: '20rem', background: 'url(https://i.ibb.co/6NXBJzf/Mesereando-PWA.png) left / cover' }}>
                         </CardTitle>
                         <CardText className="project-card">
