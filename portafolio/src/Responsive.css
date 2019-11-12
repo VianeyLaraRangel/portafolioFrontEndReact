@@ -58,9 +58,9 @@ Less grey #9F9F9F*/
     }
 
     /*SideMenu of hamburguerIcon styles*/
-    .mdl-layout__drawer {
-        
-    }
+    /* .mdl-layout__drawer {
+        height: 25rem !important;
+    } */
     /*icon into sidebar of hamburguer icon*/
     .box-logo-drawer {
         display: flex;
@@ -161,6 +161,10 @@ Less grey #9F9F9F*/
     .mdl-tabs__tab {
         color: white !important;
         font-size: .8rem !important;;
+    }
+
+    .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
+        background: #e03c31 !important;
     }
 
     /*Porjects View styles*/
