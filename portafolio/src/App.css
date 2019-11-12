@@ -73,13 +73,31 @@ ul {
     width: 70%;
 }
 
+.mdl-cell {
+    transform: skewX(-25deg) translateX(0);
+    position: absolute;
+    top: 0 !important;
+    left: -15%;
+    /* right: inherit; */
+    bottom: 0;
+    width: 80%;
+    height: inherit;
+    padding-top: 0;
+    z-index: 3;
+    background-color: #E8EAE1;
+}
+
 .card-box {
     width: 33rem !important;
     height: 35rem;
     margin: auto;
     top: 1rem;
     background-color: #E8EAE1 !important;
-    text-align: center; 
+    border: solid 2px #383536;
+    text-align: center;
+    transition: all 500ms ease-out;
+    transform: translateY(0px) scale(1);
+    transform: skewX(25deg) translateX(0);
 }
 
 .card-title, .mdl-card__title {

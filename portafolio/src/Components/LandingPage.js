@@ -8,7 +8,7 @@ class Landing extends Component {
     render() {
         return (
                 <Grid className="landing-grid">
-                    <Cell col={12}>
+                    <Cell col={9}>
                         <PersonalCard />
                     </Cell>
                 </Grid>
