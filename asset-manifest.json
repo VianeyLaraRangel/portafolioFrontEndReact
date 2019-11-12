@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portafolioReact/static/css/main.a272c0e6.chunk.css",
-    "main.js": "/portafolioReact/static/js/main.3cc7bb46.chunk.js",
-    "main.js.map": "/portafolioReact/static/js/main.3cc7bb46.chunk.js.map",
+    "main.css": "/portafolioReact/static/css/main.880e755f.chunk.css",
+    "main.js": "/portafolioReact/static/js/main.7468327f.chunk.js",
+    "main.js.map": "/portafolioReact/static/js/main.7468327f.chunk.js.map",
     "runtime-main.js": "/portafolioReact/static/js/runtime-main.a20960c4.js",
     "runtime-main.js.map": "/portafolioReact/static/js/runtime-main.a20960c4.js.map",
     "static/css/2.04aae6c4.chunk.css": "/portafolioReact/static/css/2.04aae6c4.chunk.css",
-    "static/js/2.4ad40015.chunk.js": "/portafolioReact/static/js/2.4ad40015.chunk.js",
-    "static/js/2.4ad40015.chunk.js.map": "/portafolioReact/static/js/2.4ad40015.chunk.js.map",
+    "static/js/2.a0702b82.chunk.js": "/portafolioReact/static/js/2.a0702b82.chunk.js",
+    "static/js/2.a0702b82.chunk.js.map": "/portafolioReact/static/js/2.a0702b82.chunk.js.map",
     "index.html": "/portafolioReact/index.html",
-    "precache-manifest.f2077771faa5cfa2ef7d4ce0b05dd374.js": "/portafolioReact/precache-manifest.f2077771faa5cfa2ef7d4ce0b05dd374.js",
+    "precache-manifest.15640b41a7262a5f4ff7514b29cbcd9c.js": "/portafolioReact/precache-manifest.15640b41a7262a5f4ff7514b29cbcd9c.js",
     "service-worker.js": "/portafolioReact/service-worker.js",
     "static/css/2.04aae6c4.chunk.css.map": "/portafolioReact/static/css/2.04aae6c4.chunk.css.map",
-    "static/css/main.a272c0e6.chunk.css.map": "/portafolioReact/static/css/main.a272c0e6.chunk.css.map",
+    "static/css/main.880e755f.chunk.css.map": "/portafolioReact/static/css/main.880e755f.chunk.css.map",
     "static/media/autoaprendizajeIcon.png": "/portafolioReact/static/media/autoaprendizajeIcon.02ffd249.png",
     "static/media/autogestionIcon.png": "/portafolioReact/static/media/autogestionIcon.0ce148dc.png",
     "static/media/ayudaIcon.png": "/portafolioReact/static/media/ayudaIcon.e0195840.png",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.a20960c4.js",
     "static/css/2.04aae6c4.chunk.css",
-    "static/js/2.4ad40015.chunk.js",
-    "static/css/main.a272c0e6.chunk.css",
-    "static/js/main.3cc7bb46.chunk.js"
+    "static/js/2.a0702b82.chunk.js",
+    "static/css/main.880e755f.chunk.css",
+    "static/js/main.7468327f.chunk.js"
   ]
 }
