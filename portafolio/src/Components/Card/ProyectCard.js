@@ -20,17 +20,17 @@ class ProjectCard extends React.Component {
             <div>
                 {/*Cipher card */}
                 <div>
-                    <Card shadow={0} style={{ width: '20rem', margin: '1rem' }}>
+                    <Card style={{ width: '20rem', margin: '1rem' }}>
                         <CardTitle style={{ color: '#000000', height: '15rem', background: 'url(https://i.ibb.co/FgHyVBp/cipher-Screen.png) center / cover' }}>
                         </CardTitle>
                         <CardText className="project-card">
                             <h6>DECOTIP</h6>
                             Mi primera página web, es un encriptador de dos vías que utiliza una 
-                            <strong>llave</strong> númerica cómo seguridad y que permite que unicamente
+                            <strong> llave</strong> númerica cómo seguridad y que permite que unicamente
                             las personas que la reciban lean el mensaje encriptado.
                             Se utilizó el concepto de cifrado César. 
                             Para su creacción fueron utilizados fundamentos de UX design.
-                </CardText>
+                        </CardText>
                         <CardText className="project-technologies">
                             <img src={js} alt="tecnologias-logo" className="img-tech"></img>
                             <img src={html} alt="tecnologias-logo" className="img-tech"></img>
@@ -48,7 +48,7 @@ class ProjectCard extends React.Component {
                 </div>
                 {/* DataLovers Card  */}
                 <div>
-                    <Card shadow={0} style={{ width: '20rem', margin: '1rem' }}>
+                    <Card style={{ width: '20rem', margin: '1rem' }}>
                         <CardTitle style={{ color: '#000000', height: '15rem', background: 'url(https://i.ibb.co/12Shwsd/pokepedia-Screenshot.png) left / cover' }}>
                         </CardTitle>
                         <CardText className="project-card">
@@ -57,7 +57,7 @@ class ProjectCard extends React.Component {
                             el listado de la 1° generacion de pokemones.
                             <br></br>
                             Dirigido a nostálgicos de la serie.
-                </CardText>
+                        </CardText>
                         <CardText className="project-technologies">
                             <img src={js} alt="tecnologias-logo" className="img-tech"></img>
                             <img src={html} alt="tecnologias-logo" className="img-tech"></img>
@@ -75,7 +75,7 @@ class ProjectCard extends React.Component {
                 </div>
                 {/* Social Network Card */}
                 <div>
-                    <Card shadow={0} style={{ width: '20rem', margin: '1rem' }}>
+                    <Card style={{ width: '20rem', margin: '1rem' }}>
                         <CardTitle style={{ color: '#000000', height: '15rem', background: 'url(https://i.ibb.co/kHjr7Zj/hopaki-Screen.png) left / cover' }}>
                         </CardTitle>
                         <CardText className="project-card">
@@ -102,14 +102,14 @@ class ProjectCard extends React.Component {
                 </div>
                 {/* This4That Card */}
                 <div>
-                    <Card shadow={0} style={{ width: '20rem', margin: '1rem' }}>
+                    <Card style={{ width: '20rem', margin: '1rem' }}>
                         <CardTitle style={{ color: '#000000', height: '15rem', background: 'url(https://i.ibb.co/fMNFm2m/this4that-Screen.png) left / cover' }}>
                         </CardTitle>
                         <CardText className="project-card">
                             <h6>This4That</h6>
                             MVP responsive + chatbot(IBM cloud). Proyecto desarrollado en hackaton de 8hrs
                              para el cierre de la IBM Week en Laboratoria, utiliza
-                             un chatbot entrenado que se entrena con la Inteligencia Artificial "Watson" en la 
+                             un chatbot entrenado que utiliza la Inteligencia Artificial "Watson" en la 
                              plataforma IBM Cloud.
 
                              This4That es la propuesta realizada a "Frida" una emprendedora de Victoria 147,
@@ -138,7 +138,7 @@ class ProjectCard extends React.Component {
                 </div>
                 {/*BurguerQueen Card */}
                 <div>
-                    <Card shadow={0} style={{ width: '20rem', margin: '1rem' }}>
+                    <Card style={{ width: '20rem', margin: '1rem' }}>
                         <CardTitle style={{ color: '#000000', height: '20rem', background: 'url(https://i.ibb.co/6NXBJzf/Mesereando-PWA.png) left / cover' }}>
                         </CardTitle>
                         <CardText className="project-card">

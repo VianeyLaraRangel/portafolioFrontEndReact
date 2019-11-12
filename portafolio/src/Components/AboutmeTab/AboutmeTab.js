@@ -16,9 +16,7 @@ class AboutmeTab extends React.Component {
     toggleCategories() {
         if (this.state.activeTab === 0) {
             return (
-                <div>
-                    <ListOfTech />
-                </div>
+                <ListOfTech />
             )
         } else if (this.state.activeTab === 1) {
             return (
@@ -30,7 +28,7 @@ class AboutmeTab extends React.Component {
                     <h5>
                         Ante el panorama de la transformación digital decidí hacer carrera en la tecnología
                         para posicionarme activamente en la creación de la industria 4.0.
-                        </h5>
+                    </h5>
                     <h5>
                         En <strong> 6 meses</strong> me preparé cómo desarrolladora
                         <strong> Front-end </strong>, pertenezco a la <em>8va generación de Laboratoria en México</em>.
