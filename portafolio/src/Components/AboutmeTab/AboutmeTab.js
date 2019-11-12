@@ -55,7 +55,8 @@ class AboutmeTab extends React.Component {
     render() {
         return (
             <div className="aboutme-tabs">
-                <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })}>
+                <Tabs activeTab={this.state.activeTab} 
+                    onChange={(tabId) => this.setState({ activeTab: tabId })}>
                     <Tab>Tecnologías</Tab>
                     <Tab>Habilidades</Tab>
                     <Tab>Presentación</Tab>

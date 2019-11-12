@@ -4,48 +4,29 @@ Red #e03c31
 Less grey #9F9F9F*/
 
 /*Responsive web design(Media queries: Tablet & mobile vertical)*/
+
 @media screen and (max-width: 1024px) {
     body {
         background-color: white;
     }
     /*Not showing in responsive*/
-    .mdl-layout-title, 
-    .mdl-navigation__link, 
-    .link-desktop, 
-    .avatar-img, 
-    .presentation-text, 
-    .fa-clock, 
-    .fa-mail-bulk, 
-    .detail-icon {
+    .mdl-layout-title, .mdl-navigation__link, .link-desktop, .avatar-img, .presentation-text, .fa-clock, .fa-mail-bulk, .detail-icon {
         display: none !important;
     }
-
     .mdl-navigation, ul {
-        list-style: none;   
+        list-style: none;
     }
-
     /*To show in responsive*/
-
     .mdl-grid {
         justify-content: center;
     }
-    .mdl-layout__header,
-    .mdl-layout__drawer-button, 
-    .material-icons, 
-    .logo-brand, 
-    .mdl-navigation__link, 
-    .link-mobile, 
-    .avatar-img-drawer, 
-    .home-icon {
+    .mdl-layout__header, .mdl-layout__drawer-button, .material-icons, .logo-brand, .mdl-navigation__link, .link-mobile, .avatar-img-drawer, .home-icon {
         display: block !important;
     }
-
     /*Navbar header styles*/
-    .mdl-layout-title, 
-    .material-icons {
+    .mdl-layout-title, .material-icons {
         color: white;
     }
-
     .box-logo {
         display: flex;
         justify-content: flex-end;
@@ -56,7 +37,6 @@ Less grey #9F9F9F*/
         width: 5rem !important;
         margin-top: .8rem !important;
     }
-
     /*SideMenu of hamburguerIcon styles*/
     /* .mdl-layout__drawer {
         height: 25rem !important;
@@ -68,18 +48,15 @@ Less grey #9F9F9F*/
         align-content: center;
         margin-top: 2rem;
     }
-
     /*SideBar text link*/
     .mdl-navigation__link {
         color: #383536 !important;
         font-size: 1.5rem !important;
     }
-    
     .contact-text {
         color: #383536 !important;
-        font-size: 1rem !important;  
+        font-size: 1rem !important;
     }
-
     /*LandingView styles*/
     .avatar-img-drawer {
         border-top-left-radius: 2rem;
@@ -88,7 +65,6 @@ Less grey #9F9F9F*/
         margin-right: auto;
         width: 70%;
     }
-
     .card-box {
         width: 20.5rem !important;
         height: 35rem;
@@ -97,85 +73,87 @@ Less grey #9F9F9F*/
         text-align: center;
         box-shadow: #9f9f9f;
         /*From https://www.cssmatic.com/box-shadow*/
-        -webkit-box-shadow: -13px -13px 4px -8px rgba(56,53,54,0.63);
-        -moz-box-shadow: -13px -13px 4px -8px rgba(56,53,54,0.63);
-        box-shadow: -13px -13px 4px -8px rgba(56,53,54,0.63);
+        -webkit-box-shadow: -13px -13px 4px -8px rgba(56, 53, 54, 0.63);
+        -moz-box-shadow: -13px -13px 4px -8px rgba(56, 53, 54, 0.63);
+        box-shadow: -13px -13px 4px -8px rgba(56, 53, 54, 0.63);
     }
-
-    .card-title, 
-    .mdl-card__title {
+    .card-title, .mdl-card__title {
         display: flex !important;
         justify-content: flex-end !important;
-        background-color: #E8EAE1 ;
+        background-color: #E8EAE1;
         background-image: url(https://i.ibb.co/0ZQgcxK/vianeylara-1-1.jpg);
         background-repeat: no-repeat;
         background-position: 50% 50%;
     }
-
     .logo-brand {
         width: 18rem;
         margin-right: .3rem;
     }
-
     .mdl-card__supporting-text {
         background-color: #e03c31;
     }
-
     .presentation-box {
         width: 100% !important;
     }
-    
     .mdl-button--fab {
         margin: 0.2rem 1.3rem 0.2rem 1rem !important;
         background-color: white !important;
     }
-
-    a , .fas:not(.fa-home) {
+    a, .fas:not(.fa-home) {
         color: #383536 !important;
     }
-
     i {
         background-color: transparent;
         font-size: 2.3rem !important;
         font-family: "Helvetica", "Arial", sans-serif !important;
     }
-
-    .fa-map-marker-alt, .p-fa-map-marker-alt{
+    .fa-map-marker-alt, .p-fa-map-marker-alt {
         display: flex;
         width: 3rem;
         justify-content: center;
         align-self: flex-end;
-        color:#e03c31 !important;
+        color: #e03c31 !important;
         background-color: transparent;
     }
-
     /*AboutMe styles*/
     .aboutme-tabs {
         background-color: #E8EAE1;
     }
-    
     .mdl-tabs__tab-bar {
         background-color: #383536;
     }
-
     .mdl-tabs__tab {
         color: white !important;
-        font-size: .8rem !important;;
+        font-size: .8rem !important;
+        ;
     }
-
     .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
         background: #e03c31 !important;
     }
-
     /*Porjects View styles*/
-    .mdl-card__supporting-text , .project-card {
+    .mdl-card__supporting-text, .project-card {
         background-color: #E8EAE1;
         width: 100% !important;
         color: black !important;
     }
-
-    .project-technologies , .img-tech {
-        width: 2rem;
+    .project-technologies, .img-tech {
+        width: 3rem;
+        padding: .2rem;
+    }
+    .mdl-button {
+        margin: 0.2rem 1.3rem 0.2rem 1rem !important;
+        background-color: white !important;
     }
 
+    .project-card h5 {
+        background-color: #383536;
+        color: white;
+        margin: .5rem;
+    }
+
+    .project-card p {
+        text-align: center;
+        letter-spacing: unset;
+        font-size: 15px;
+    }
 }

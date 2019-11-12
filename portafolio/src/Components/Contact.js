@@ -25,6 +25,13 @@ class Contact extends Component {
                     </a>
                 </FABButton>
                 <FABButton >
+                    <a href="https://www.instagram.com/vinicialara/" 
+                        target="_blank" 
+                        rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </FABButton>
+                <FABButton >
                     <a href="https://www.facebook.com/mrs.vinicia" 
                         target="_blank" 
                         rel="noopener noreferrer">
