@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './Components/Main';
-import { Link , Switch , Route } from 'react-router-dom';
+import { Link, Switch, Route } from 'react-router-dom';
 
 import './App.css';
 import './Responsive.css';
@@ -13,13 +13,12 @@ import LaboratoriaLogo from './Assets/LaboratoriaLok.png';
 import HomeBtn from './Components/HomeButton/HomeBtn'
 
 class App extends Component {
-  render () {
-      return (
-        <div className="demo-big-content">
+    render() {
+        return (
             <Layout>
-                <Header 
-                    className="header-color" 
-                    title="Vianey Lara" 
+                <Header
+                    className="header-color"
+                    title="Vianey Lara"
                     scroll>
                     <Navigation className="link-desktop">
                         <Link to="/aboutme">Acerca de mí</Link>
@@ -35,24 +34,16 @@ class App extends Component {
                         </Switch>
                     </Navigation>
                 </Header>
-                <Drawer 
-                className="hamburguer-menu">
-                        <div className="box-logo-drawer">
-                            <img
-                                src={LaboratoriaLogo}
-                                width="80"
-                                height="80"
-                                alt="simpleLaboratoriaLogo"
-                                className="labo-logo"
-                            />
-                            {/* <img
-                                src={FacDerechoLogo}
-                                width="80"
-                                height="110"
-                                alt="unamDerechoLogo"
-                                className="ius-logo"
-                            /> */}
-                        </div>
+                <Drawer className="hamburguer-menu">
+                    <div className="box-logo-drawer">
+                        <img
+                            src={LaboratoriaLogo}
+                            width="80"
+                            height="80"
+                            alt="simpleLaboratoriaLogo"
+                            className="labo-logo"
+                        />
+                    </div>
                     <Navigation className="link-mobile">
                         <Link to="/aboutme">Acerca de mí</Link>
                         <Link to="/projects">Proyectos</Link>
@@ -61,13 +52,11 @@ class App extends Component {
                     </Navigation>
                 </Drawer>
                 <Content>
-                    <div className="page-content" />
-                    <Main/>
+                    <Main />
                 </Content>
             </Layout>
-        </div>
-    );
-  }
+        );
+    }
 }
 
 export default App;

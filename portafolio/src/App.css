@@ -92,7 +92,7 @@ ul {
     background-position: 5% 50%;
 }
 
-.mdl-card__supporting-text, p {
+.mdl-card__supporting-text {
     background-color: #9F9F9F;
 }
 

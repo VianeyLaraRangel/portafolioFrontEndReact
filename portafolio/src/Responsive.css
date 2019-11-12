@@ -20,6 +20,10 @@ Less grey #9F9F9F*/
         display: none !important;
     }
 
+    .mdl-navigation, ul {
+        list-style: none;   
+    }
+
     /*To show in responsive*/
 
     .mdl-grid {
@@ -46,33 +50,34 @@ Less grey #9F9F9F*/
         display: flex;
         justify-content: flex-end;
     }
-
+    /*Hamburguer icon*/
     .mdl-layout__drawer-button {
         background-image: none !important;
         width: 5rem !important;
         margin-top: .8rem !important;
     }
 
-    .mdl-navigation__link{
-        color: #383536 !important;
-    }
-    
-    .logo-brand {
-        width: 18rem;
-        margin-right: .3rem;
-    }
-    
-    .mdl-navigation, ul {
-        list-style: none;   
-    }
-
     /*SideMenu of hamburguerIcon styles*/
+    .mdl-layout__drawer {
+        
+    }
     /*icon into sidebar of hamburguer icon*/
     .box-logo-drawer {
         display: flex;
         justify-content: space-around;
         align-content: center;
         margin-top: 2rem;
+    }
+
+    /*SideBar text link*/
+    .mdl-navigation__link {
+        color: #383536 !important;
+        font-size: 1.5rem !important;
+    }
+    
+    .contact-text {
+        color: #383536 !important;
+        font-size: 1rem !important;  
     }
 
     /*LandingView styles*/
@@ -107,7 +112,12 @@ Less grey #9F9F9F*/
         background-position: 50% 50%;
     }
 
-    .mdl-card__supporting-text, p {
+    .logo-brand {
+        width: 18rem;
+        margin-right: .3rem;
+    }
+
+    .mdl-card__supporting-text {
         background-color: #e03c31;
     }
 
