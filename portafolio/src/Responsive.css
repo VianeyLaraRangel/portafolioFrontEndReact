@@ -38,9 +38,9 @@ Less grey #9F9F9F*/
         margin-top: .8rem !important;
     }
     /*SideMenu of hamburguerIcon styles*/
-    /* .mdl-layout__drawer {
-        height: 25rem !important;
-    } */
+        .mdl-layout__drawer {
+            width: 10rem !important;
+        }
     /*icon into sidebar of hamburguer icon*/
     .box-logo-drawer {
         display: flex;
@@ -57,6 +57,7 @@ Less grey #9F9F9F*/
         color: #383536 !important;
         font-size: 1rem !important;
     }
+
     /*LandingView styles*/
     .avatar-img-drawer {
         border-top-left-radius: 2rem;
@@ -130,7 +131,7 @@ Less grey #9F9F9F*/
     .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
         background: #e03c31 !important;
     }
-    /*Porjects View styles*/
+    /*Projects View styles*/
     .mdl-card__supporting-text, .project-card {
         background-color: #E8EAE1;
         width: 100% !important;
@@ -156,4 +157,28 @@ Less grey #9F9F9F*/
         letter-spacing: unset;
         font-size: 15px;
     }
+
+    /*Contact view styles*/
+    .contact-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .contact-box p {
+        text-align: center;
+    }
+
+    .contact-buttons {
+        display: flex;  
+        flex-direction: column;
+        background-color: #383536;
+    }
+
+    .contact-item {
+        margin: .4rem !important;
+    }
+
 }
