@@ -7,13 +7,11 @@ import PersonalCard from "./Card/PersonalCard";
 class Landing extends Component {
     render() {
         return (
-            <div >
                 <Grid className="landing-grid">
-                    <Cell col={12} tablet={8} phone={2}>
+                    <Cell col={12}>
                         <PersonalCard />
                     </Cell>
                 </Grid>
-            </div>
         );
     }
 }
