@@ -10,15 +10,7 @@ Less grey #9F9F9F*/
         background-color: white;
     }
     /*Not showing in responsive*/
-    .mdl-layout-title, 
-    .mdl-navigation__link, 
-    .link-desktop, 
-    .avatar-img, 
-    .presentation-text, 
-    .fa-clock, 
-    .fa-mail-bulk, 
-    .detail-icon,
-    .collage-image-wrapper {
+    .mdl-layout-title, .mdl-navigation__link, .link-desktop, .avatar-img, .presentation-text, .fa-clock, .fa-mail-bulk, .detail-icon, .collage-image-wrapper, .collage-image-wrapper {
         display: none !important;
     }
     .mdl-navigation, ul {
@@ -26,8 +18,8 @@ Less grey #9F9F9F*/
     }
     /*To show in responsive*/
     .mdl-grid {
-        display: flex;
-        justify-content: flex-start;
+        /* display: flex; */
+        justify-content: center;
     }
     .mdl-layout__header, .mdl-layout__drawer-button, .material-icons, .logo-brand, .mdl-navigation__link, .link-mobile, .avatar-img-drawer, .home-icon {
         display: block !important;
@@ -68,9 +60,12 @@ Less grey #9F9F9F*/
     }
     /*LandingView styles*/
     .hero-slash {
-        transform: skewX(0deg) translateX(0);
         position: absolute;
         background-color: #E8EAE1;
+        left: 0;
+        transform: skewX(0deg) translateX(0);
+        display: flex;
+        justify-content: center;
     }
     .avatar-img-drawer {
         border-top-left-radius: 2rem;
@@ -83,10 +78,11 @@ Less grey #9F9F9F*/
         transform: skewX(0deg) translateX(0);
         width: 20.5rem !important;
         height: 35rem;
-        top: .3rem;
+        /* top: center; */
+        left: 0;
         background-color: #383536 !important;
         text-align: center;
-        box-shadow: #9f9f9f;
+        /* box-shadow: #9f9f9f; */
         /*From https://www.cssmatic.com/box-shadow*/
         -webkit-box-shadow: -13px -13px 4px -8px rgba(56, 53, 54, 0.63);
         -moz-box-shadow: -13px -13px 4px -8px rgba(56, 53, 54, 0.63);
@@ -146,6 +142,10 @@ Less grey #9F9F9F*/
         background: #e03c31 !important;
     }
     /*Projects View styles*/
+    .project-box {
+        display: flex;
+        justify-content: center;
+    }
     .mdl-card__supporting-text, .project-card {
         background-color: #E8EAE1;
         width: 100%;
@@ -159,17 +159,14 @@ Less grey #9F9F9F*/
         margin: 0.2rem 1.3rem 0.2rem 1rem !important;
         background-color: white !important;
     }
-
     .card-box-project {
         transform: skewX(0deg) translateX(0);
     }
-
     .project-card h5 {
         background-color: #383536;
         color: white;
         margin: .5rem;
     }
-    
     .project-card p {
         text-align: center;
         letter-spacing: unset;
@@ -182,17 +179,14 @@ Less grey #9F9F9F*/
         align-items: center;
         flex-direction: column;
     }
-
     .contact-box p {
         text-align: center;
     }
-
     .contact-buttons {
         display: flex;
         flex-direction: column;
         background-color: #383536;
     }
-
     .contact-item {
         margin: .4rem !important;
     }

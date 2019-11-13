@@ -79,7 +79,6 @@ ul {
 }
 
 .hero-slash {
-    transform: skewX(-25deg) translateX(0);
     position: absolute;
     top: 0 !important;
     left: -45%;
@@ -87,9 +86,8 @@ ul {
     bottom: 0;
     width: 100%;
     height: inherit;
-    padding-top: 0;
-    z-index: 3;
     background-color: #E8EAE1;
+    transform: skewX(-25deg) translateX(0);
 }
 
 .card-box {

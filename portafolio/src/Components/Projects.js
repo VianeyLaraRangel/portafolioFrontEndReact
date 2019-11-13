@@ -4,7 +4,7 @@ import ProjectCard from './Card/ProyectCard';
 class Projects  extends Component {
     render() {
         return(
-            <div>
+            <div className="project-box">
                 <ProjectCard />
             </div>
         );
