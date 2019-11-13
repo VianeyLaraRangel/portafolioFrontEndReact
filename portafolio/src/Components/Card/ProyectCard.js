@@ -46,7 +46,7 @@ class ProjectCard extends React.Component {
                         </CardActions>
                     </Card>
                 {/* Social Network Card */}
-                    <Card className="card-box" style={{ width: '20rem', margin: '1rem' }}>
+                    <Card className="card-box card-box-project" style={{ width: '20rem', margin: '1rem' }}>
                         <CardTitle style={{ color: '#000000', height: '15rem', background: 'url(https://i.ibb.co/kHjr7Zj/hopaki-Screen.png) left / cover' }}>
                         </CardTitle>
                         <CardText className="project-card">
@@ -73,7 +73,7 @@ class ProjectCard extends React.Component {
                         </CardActions>
                     </Card>
                 {/* DataLovers Card  */}
-                    <Card className="card-box" style={{ width: '20rem', margin: '1rem' }}>
+                    <Card className="card-box card-box-project" style={{ width: '20rem', margin: '1rem' }}>
                         <CardTitle style={{ color: '#000000', height: '15rem', background: 'url(https://i.ibb.co/12Shwsd/pokepedia-Screenshot.png) left / cover' }}>
                         </CardTitle>
                         <CardText className="project-card">
@@ -100,7 +100,7 @@ class ProjectCard extends React.Component {
                         </CardActions>
                     </Card>
                 {/* This4That Card */}
-                    <Card className="card-box" style={{ width: '20rem', margin: '1rem' }}>
+                    <Card className="card-box card-box-project" style={{ width: '20rem', margin: '1rem' }}>
                         <CardTitle style={{ color: '#000000', height: '15rem', background: 'url(https://i.ibb.co/fMNFm2m/this4that-Screen.png) left / cover' }}>
                         </CardTitle>
                         <CardText className="project-card">
@@ -136,7 +136,7 @@ class ProjectCard extends React.Component {
                         </CardActions>
                     </Card>
                 {/*Cipher card */}
-                    <Card className="card-box" style={{ width: '20rem', margin: '1rem' }}>
+                    <Card className="card-box card-box-project" style={{ width: '20rem', margin: '1rem' }}>
                         <CardTitle style={{ color: '#000000', height: '15rem', background: 'url(https://i.ibb.co/FgHyVBp/cipher-Screen.png) center / cover' }}>
                         </CardTitle>
                         <CardText className="project-card">

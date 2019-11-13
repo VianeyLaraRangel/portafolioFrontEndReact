@@ -57,7 +57,8 @@ ul {
 }
 
 .mdl-grid {
-    justify-content: center;
+    display: flex;
+    justify-content: flex-end;
 }
 
 /*Icon into sidebar of hamburguer icon (supposing to users click)*/
@@ -81,7 +82,7 @@ ul {
     transform: skewX(-25deg) translateX(0);
     position: absolute;
     top: 0 !important;
-    left: -40%;
+    left: -45%;
     right: inherit;
     bottom: 0;
     width: 100%;
@@ -92,9 +93,10 @@ ul {
 }
 
 .card-box {
+    position: absolute;
+    left: 34rem;
     width: 31rem !important;
     height: 35rem;
-    margin-left: 11rem;
     top: 1rem;
     background-color: #E8EAE1 !important;
     /* border: solid 2px #383536; */
@@ -192,4 +194,39 @@ ul {
     padding-right: 5px;
 
 }
+
+/*Desktop collage Image*/
+.collage-image-wrapper {
+    background-color: aqua;
+}
+
+.collage-image-container{
+    background-color: blueviolet;
+}
+
+.collage-outer {
+    background-color: crimson;
+}
+
+.collage-inner {
+    background-color: white;
+}
+    /* .collage-image-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        overflow: hidden;
+    } */
+
+    /* .collage-image-container {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 144px;
+        left: 20%
+    } */
+
+    .collage-inner {
+        background-color: aqua;
+        background-image: url('https://res.cloudinary.com/teepublic/image/private/s--kBysYyMu--/t_Preview/b_rgb:191920,c_limit,f_jpg,h_630,q_90,w_630/v1469962008/production/designs/609517_1.jpg');
+    }
 

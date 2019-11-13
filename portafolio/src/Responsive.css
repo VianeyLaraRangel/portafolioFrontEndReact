@@ -10,7 +10,15 @@ Less grey #9F9F9F*/
         background-color: white;
     }
     /*Not showing in responsive*/
-    .mdl-layout-title, .mdl-navigation__link, .link-desktop, .avatar-img, .presentation-text, .fa-clock, .fa-mail-bulk, .detail-icon {
+    .mdl-layout-title, 
+    .mdl-navigation__link, 
+    .link-desktop, 
+    .avatar-img, 
+    .presentation-text, 
+    .fa-clock, 
+    .fa-mail-bulk, 
+    .detail-icon,
+    .collage-image-wrapper {
         display: none !important;
     }
     .mdl-navigation, ul {
@@ -18,7 +26,8 @@ Less grey #9F9F9F*/
     }
     /*To show in responsive*/
     .mdl-grid {
-        justify-content: center;
+        display: flex;
+        justify-content: flex-start;
     }
     .mdl-layout__header, .mdl-layout__drawer-button, .material-icons, .logo-brand, .mdl-navigation__link, .link-mobile, .avatar-img-drawer, .home-icon {
         display: block !important;
@@ -59,7 +68,9 @@ Less grey #9F9F9F*/
     }
     /*LandingView styles*/
     .hero-slash {
-        left: 0%;
+        transform: skewX(0deg) translateX(0);
+        position: absolute;
+        background-color: #E8EAE1;
     }
     .avatar-img-drawer {
         border-top-left-radius: 2rem;
@@ -69,6 +80,7 @@ Less grey #9F9F9F*/
         width: 70%;
     }
     .card-box {
+        transform: skewX(0deg) translateX(0);
         width: 20.5rem !important;
         height: 35rem;
         top: .3rem;
