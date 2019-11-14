@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portafolioReact/static/css/main.9ef9fc75.chunk.css",
+    "main.css": "/portafolioReact/static/css/main.41f7f591.chunk.css",
     "main.js": "/portafolioReact/static/js/main.1e468e17.chunk.js",
     "main.js.map": "/portafolioReact/static/js/main.1e468e17.chunk.js.map",
     "runtime-main.js": "/portafolioReact/static/js/runtime-main.a20960c4.js",
@@ -9,10 +9,10 @@
     "static/js/2.a0702b82.chunk.js": "/portafolioReact/static/js/2.a0702b82.chunk.js",
     "static/js/2.a0702b82.chunk.js.map": "/portafolioReact/static/js/2.a0702b82.chunk.js.map",
     "index.html": "/portafolioReact/index.html",
-    "precache-manifest.371be558731f96b5767ffc1057a50e20.js": "/portafolioReact/precache-manifest.371be558731f96b5767ffc1057a50e20.js",
+    "precache-manifest.e7dd431f05b91192e5d24060596883e5.js": "/portafolioReact/precache-manifest.e7dd431f05b91192e5d24060596883e5.js",
     "service-worker.js": "/portafolioReact/service-worker.js",
     "static/css/2.04aae6c4.chunk.css.map": "/portafolioReact/static/css/2.04aae6c4.chunk.css.map",
-    "static/css/main.9ef9fc75.chunk.css.map": "/portafolioReact/static/css/main.9ef9fc75.chunk.css.map",
+    "static/css/main.41f7f591.chunk.css.map": "/portafolioReact/static/css/main.41f7f591.chunk.css.map",
     "static/media/autoaprendizajeIcon.png": "/portafolioReact/static/media/autoaprendizajeIcon.02ffd249.png",
     "static/media/autogestionIcon.png": "/portafolioReact/static/media/autogestionIcon.0ce148dc.png",
     "static/media/ayudaIcon.png": "/portafolioReact/static/media/ayudaIcon.e0195840.png",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.a20960c4.js",
     "static/css/2.04aae6c4.chunk.css",
     "static/js/2.a0702b82.chunk.js",
-    "static/css/main.9ef9fc75.chunk.css",
+    "static/css/main.41f7f591.chunk.css",
     "static/js/main.1e468e17.chunk.js"
   ]
 }
