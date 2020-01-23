@@ -37,10 +37,10 @@ class ProjectCard extends React.Component {
                             <img src={firebase} alt="tecnologias-logo" className="img-tech"></img>
                         </CardText>
                         <CardActions>
-                            <Button colored href="https://eriika19.github.io/MEX008-FE-Burger-Queen/" target="_blank">
+                            <Button colored className="project-button" href="https://eriika19.github.io/MEX008-FE-Burger-Queen/" target="_blank">
                                 DEMO
                             </Button>
-                            <Button colored href="https://github.com/VianeyLaraRangel/MEX008-FE-Burger-Queen" target="_blank">
+                            <Button colored className="project-button" href="https://github.com/VianeyLaraRangel/MEX008-FE-Burger-Queen" target="_blank">
                                 CODIGO FUENTE
                             </Button>
                         </CardActions>
@@ -64,10 +64,10 @@ class ProjectCard extends React.Component {
                             <img src={bootstrap} alt="tecnologias-logo" className="img-tech"></img>
                         </CardText>
                         <CardActions>
-                            <Button colored href="https://hopaki-prueba.firebaseapp.com/" target="_blank">
+                            <Button colored className="project-button" href="https://hopaki-prueba.firebaseapp.com/" target="_blank">
                                 DEMO
                             </Button>
-                            <Button colored href="https://github.com/VianeyLaraRangel/MEX008-social-network" target="_blank">
+                            <Button colored className="project-button" href="https://github.com/VianeyLaraRangel/MEX008-social-network" target="_blank">
                                 CODIGO FUENTE
                             </Button>
                         </CardActions>
@@ -91,10 +91,10 @@ class ProjectCard extends React.Component {
                             <img src={css} alt="tecnologias-logo" className="img-tech"></img>
                         </CardText>
                         <CardActions>
-                            <Button colored href="https://vianeylararangel.github.io/MEX-Data-Lovers-008/src/index.html" target="_blank">
+                            <Button colored className="project-button" href="https://vianeylararangel.github.io/MEX-Data-Lovers-008/src/index.html" target="_blank">
                                 DEMO
                             </Button>
-                            <Button colored href="https://github.com/VianeyLaraRangel/MEX-Data-Lovers-008" target="_blank">
+                            <Button colored className="project-button" href="https://github.com/VianeyLaraRangel/MEX-Data-Lovers-008" target="_blank">
                                 CODIGO FUENTE
                             </Button>
                         </CardActions>
@@ -127,10 +127,10 @@ class ProjectCard extends React.Component {
                             <img src={watson} alt="tecnologias-logo" className="img-tech"></img>
                         </CardText>
                         <CardActions>
-                            <Button colored href="https://vianeylararangel.github.io/IBM-This4That/src/index.html" target="_blank">
+                            <Button colored className="project-button" href="https://vianeylararangel.github.io/IBM-This4That/src/index.html" target="_blank">
                                 DEMO
                             </Button>
-                            <Button colored href="https://github.com/VianeyLaraRangel/IBM-This4That" target="_blank">
+                            <Button colored className="project-button" href="https://github.com/VianeyLaraRangel/IBM-This4That" target="_blank">
                                 CODIGO FUENTE
                             </Button>
                         </CardActions>
@@ -155,10 +155,10 @@ class ProjectCard extends React.Component {
                             <img src={css} alt="tecnologias-logo" className="img-tech"></img>
                         </CardText>
                         <CardActions>
-                            <Button colored href="https://vianeylararangel.github.io/MEX-008-Cipher/src/index.html" target="_blank">
+                            <Button colored className="project-button" href="https://vianeylararangel.github.io/MEX-008-Cipher/src/index.html" target="_blank">
                                 DEMO
                             </Button>
-                            <Button colored href="https://github.com/VianeyLaraRangel/MEX-008-Cipher" target="_blank">
+                            <Button colored className="project-button" href="https://github.com/VianeyLaraRangel/MEX-008-Cipher" target="_blank">
                                 CODIGO FUENTE
                             </Button>
                         </CardActions>

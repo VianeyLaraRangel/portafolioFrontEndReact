@@ -56,10 +56,9 @@ ul {
     list-style: none;   
 }
 
-.mdl-grid {
-    display: flex;
+/* .mdl-grid {
     justify-content: flex-end;
-}
+} */
 
 /*Icon into sidebar of hamburguer icon (supposing to users click)*/
 .box-logo-drawer {
@@ -81,25 +80,28 @@ ul {
 .hero-slash {
     position: absolute;
     top: 0 !important;
-    left: -45%;
-    right: inherit;
     bottom: 0;
+    /* left: -45%; */
+    /* right: inherit; */
+    
     width: 100%;
-    height: inherit;
     background-color: #E8EAE1;
     transform: skewX(-25deg) translateX(0);
+    /* transition: all 500ms ease-out; */
 }
 
 .card-box {
-    position: absolute;
-    left: 34rem;
+    top: 1rem; 
     width: 31rem !important;
     height: 35rem;
-    top: 1rem;
     background-color: #E8EAE1 !important;
-    /* border: solid 2px #383536; */
     text-align: center;
     transform: skewX(25deg) translateX(0);
+}
+
+.mdl-button {
+    margin: 0.2rem 1.3rem 0.2rem 1rem !important;
+    background-color: white !important;
 }
 
 .card-title, .mdl-card__title {
@@ -209,22 +211,38 @@ ul {
 .collage-inner {
     background-color: white;
 }
-    /* .collage-image-wrapper {
-        display: flex;
-        justify-content: flex-end;
-        overflow: hidden;
-    } */
+.collage-inner {
+    background-color: aqua;
+    background-image: url('https://res.cloudinary.com/teepublic/image/private/s--kBysYyMu--/t_Preview/b_rgb:191920,c_limit,f_jpg,h_630,q_90,w_630/v1469962008/production/designs/609517_1.jpg');
+}
 
-    /* .collage-image-container {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 144px;
-        left: 20%
-    } */
+/*Desktop project card*/
+.project-box {
+    display: flex;
+    justify-content: center;
+}
 
-    .collage-inner {
-        background-color: aqua;
-        background-image: url('https://res.cloudinary.com/teepublic/image/private/s--kBysYyMu--/t_Preview/b_rgb:191920,c_limit,f_jpg,h_630,q_90,w_630/v1469962008/production/designs/609517_1.jpg');
-    }
+.card-box-project {
+    transform: skewX(0) translateX(0);
+}
+
+.project-technologies, .img-tech {
+    width: 3rem;
+    padding: .2rem;
+}
+
+.project-card h5 {
+    background-color: #383536;
+    color: white;
+    margin: .5rem;
+}
+.project-card p {
+    text-align: center;
+    letter-spacing: unset;
+    font-size: 15px;
+}
+
+.project-button {
+    background-color: #e03c31 !important;
+}
 

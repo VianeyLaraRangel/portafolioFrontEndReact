@@ -10,7 +10,15 @@ Less grey #9F9F9F*/
         background-color: white;
     }
     /*Not showing in responsive*/
-    .mdl-layout-title, .mdl-navigation__link, .link-desktop, .avatar-img, .presentation-text, .fa-clock, .fa-mail-bulk, .detail-icon, .collage-image-wrapper, .collage-image-wrapper {
+    .mdl-layout-title, 
+    .mdl-navigation__link, 
+    .link-desktop, 
+    .avatar-img, 
+    .presentation-text, 
+    .fa-clock, 
+    .fa-mail-bulk, 
+    .detail-icon, 
+    .collage-image-wrapper {
         display: none !important;
     }
     .mdl-navigation, ul {
@@ -18,10 +26,17 @@ Less grey #9F9F9F*/
     }
     /*To show in responsive*/
     .mdl-grid {
-        /* display: flex; */
         justify-content: center;
     }
-    .mdl-layout__header, .mdl-layout__drawer-button, .material-icons, .logo-brand, .mdl-navigation__link, .link-mobile, .avatar-img-drawer, .home-icon {
+
+    .mdl-layout__header, 
+    .mdl-layout__drawer-button, 
+    .material-icons, 
+    .logo-brand,
+    .mdl-navigation__link, 
+    .link-mobile, 
+    .avatar-img-drawer, 
+    .home-icon {
         display: block !important;
     }
     /*Navbar header styles*/
