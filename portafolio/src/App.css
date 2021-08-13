@@ -6,10 +6,10 @@ Viwhite #E8EAE1*/
 
 /*General styles*/
 * {
-    font-family: 'Oswald', sans-serif !important;
+    font-family: 'Oswald', sans-serif ;
     font-size: 18px;
     box-sizing: border-box;
-    /*Change this*/
+    /*Change this*/ 
     border: solid black .3px;
 }
 
@@ -90,11 +90,11 @@ ul {
 }
 
 .card-box {
-    top: 1rem; 
+    top: .5rem; 
     width: 31rem !important;
     height: 35rem;
     background-color: #E8EAE1 !important;
-    text-align: center;
+    text-align:justify;
     transform: skewX(25deg) translateX(0);
 }
 
@@ -195,7 +195,7 @@ ul {
 }
 
 /*Desktop collage Image*/
-.collage-image-wrapper {
+/*.collage-image-wrapper {
     background-color: aqua;
 }
 
@@ -213,7 +213,7 @@ ul {
 .collage-inner {
     background-color: aqua;
     background-image: url('https://res.cloudinary.com/teepublic/image/private/s--kBysYyMu--/t_Preview/b_rgb:191920,c_limit,f_jpg,h_630,q_90,w_630/v1469962008/production/designs/609517_1.jpg');
-}
+}*/
 
 /*Desktop project card*/
 .project-box {

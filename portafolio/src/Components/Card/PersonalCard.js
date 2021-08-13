@@ -26,14 +26,12 @@ class PersonalCard extends React.Component {
                     </CardTitle>
                     <CardText className="presentation-box">
                         <div className="presentation-text">
-                            <p>
                                 Ante el panorama de la transformación digital, decidí
                                 seguir aprendiendo, fue así que me acerqué a la
                                 tecnología, en dónde desarrolle la cultura que me
                                 permite estar al servicio de otros para solucionar con
                                 propósito y a propósito. Busco colaborar para
                                 entender el problema y así gestionar el cambio.
-                            </p>
                         </div>
                     </CardText>
                     <CardActions border>
