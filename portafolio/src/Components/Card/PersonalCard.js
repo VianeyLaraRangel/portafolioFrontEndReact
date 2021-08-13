@@ -39,7 +39,7 @@ class PersonalCard extends React.Component {
                         <div className="box-logo">
                             <img
                                 className="logo-brand"
-                                src="https://i.ibb.co/VNLp8zM/logo-VLIteracion.png"
+                                src="https://i.ibb.co/ygRXBsL/logo-Ago21-Recorte.png"
                                 alt="LogoViLaRa" />
                         </div>
                     </CardText>
