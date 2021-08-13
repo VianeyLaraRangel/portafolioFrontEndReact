@@ -39,7 +39,7 @@ body {
 
 /*Navbar header styles*/
 .header-color {
-    background: #e03c31 !important;
+    background: #34678C !important;
 }
 
 .mdl-layout__drawer-button {
@@ -143,7 +143,7 @@ ul {
     }
 
     .fa-home {
-        background-color: #e03c31 !important
+        background-color: #34678C !important
     }
 
 .fa-map-marker-alt, .fa-clock, .fa-mail-bulk, .presentation-icon{
@@ -151,7 +151,7 @@ ul {
     width: 14rem;
     padding: .5rem;
     align-self: flex-end;
-    color:#e03c31 !important;
+    color: #34678C !important;
     background-color: transparent;
 }
 

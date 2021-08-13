@@ -3,7 +3,7 @@ import React from 'react';
 import { Card, CardTitle, CardText, CardActions, FABButton } from 'react-mdl';
 import { withRouter } from 'react-router';
 
-import cvViLara from '../../Documents/vianeyLaraCV.pdf';
+import cvViLara from '../../Documents/VianeyLara_CVAgo21.pdf';
 
 class PersonalCard extends React.Component {
     render() {
@@ -46,7 +46,7 @@ class PersonalCard extends React.Component {
                     <CardActions border>
                         <div className="social-buttons" id="anima">
                             <FABButton>
-                                <a href={cvViLara} download="VianeyLaraRangelCV">
+                                <a href={cvViLara} download="VianeyLara_CVAgo21.pdf">
                                     <i className="fas fa-file-download"></i>
                                 </a>
                             </FABButton>
