@@ -103,11 +103,12 @@ Less grey #9F9F9F*/
         -moz-box-shadow: -13px -13px 4px -8px rgba(56, 53, 54, 0.63);
         box-shadow: -13px -13px 4px -8px rgba(56, 53, 54, 0.63);
     }
+    /*Foto de perfil*/
     .card-title, .mdl-card__title {
         display: flex !important;
         justify-content: flex-end !important;
         background-color: #E8EAE1;
-        background-image: url(https://i.ibb.co/0ZQgcxK/vianeylara-1-1.jpg);
+        background-image: url(https://i.ibb.co/X30L1D2/Vinicia-Photo-Ago21.jpg);
         background-repeat: no-repeat;
         background-position: 50% 50%;
         background-size: 18rem;

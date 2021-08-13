@@ -17,9 +17,7 @@ class App extends Component {
         return (
             <Layout>
                 <Header
-                    className="header-color"
-                    title="Vianey Lara"
-                    scroll>
+                    className="header-color">
                     <Navigation className="link-desktop">
                         <Link to="/aboutme">Acerca de mí</Link>
                         <Link to="/projects">Proyectos</Link>

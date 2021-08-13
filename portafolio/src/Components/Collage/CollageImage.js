@@ -9,23 +9,12 @@ class PresentationCollage extends React.Component {
                 collage-image-wrapper
                 <div className="collage-image-container">
                     collage-image-container
-                    <section>
                         <figure>
-                            figure
                             <div className="collage-outer">
                                 collage outer
                                 <div className="collage-inner">collage-inner</div>
                             </div>
                         </figure>
-                        <figure>
-                            <div></div>
-                        </figure>
-                    </section>
-                    <section>
-                        <figure>
-                            <div></div>
-                        </figure>
-                    </section>
                 </div>
             </div>
         );

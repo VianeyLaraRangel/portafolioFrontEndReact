@@ -17,7 +17,7 @@ class PersonalCard extends React.Component {
                                 <p className="presentation-icon">CDMX</p>
                             </i>
                             <i className="fas fa-clock">
-                                <p className="presentation-icon">29 años</p>
+                                <p className="presentation-icon">30 años</p>
                             </i>
                             <i className="fas fa-mail-bulk">
                                 <p className="presentation-icon">vianey.lara.rangel@gmail.com</p>
@@ -27,20 +27,13 @@ class PersonalCard extends React.Component {
                     <CardText className="presentation-box">
                         <div className="presentation-text">
                             <p>
-                                Analista incansable y autodidacta, ante el panorama de la transformación digital,
-                                    decidí comenzar una carrera en tecnología.
-                                Encontré en la programación web, la oportunidad de aplicar la creatividad,
-                                    persistencia e ideación constante con la que cuento.
-                         <strong> Te invito a conocer más de lo que he hecho </strong>
-                                y así encontrar juntxs la forma de
-                         <strong> colaborar profesionalmente.</strong>
+                                Ante el panorama de la transformación digital, decidí
+                                seguir aprendiendo, fue así que me acerqué a la
+                                tecnología, en dónde desarrolle la cultura que me
+                                permite estar al servicio de otros para solucionar con
+                                propósito y a propósito. Busco colaborar para
+                                entender el problema y así gestionar el cambio.
                             </p>
-                        </div>
-                        <div className="box-logo">
-                            <img
-                                className="logo-brand"
-                                src="https://i.ibb.co/VNLp8zM/logo-VLIteracion.png"
-                                alt="LogoViLaRa" />
                         </div>
                     </CardText>
                     <CardActions border>

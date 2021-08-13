@@ -9,7 +9,8 @@ Viwhite #E8EAE1*/
     font-family: 'Oswald', sans-serif !important;
     font-size: 18px;
     box-sizing: border-box;
-    /* border: solid black .3px; */
+    /*Change this*/
+    border: solid black .3px;
 }
 
 body {
@@ -25,7 +26,7 @@ body {
 }
 
 /*Not showing in desktop*/
-.material-icons, .logo-brand, .home-icon {
+.material-icons, /*.logo-brand,*/ .home-icon {
     display: none !important;
     font-family: 'Material Icons' !important;
 }
@@ -38,16 +39,17 @@ body {
 /*Principal components/views styles*/
 
 /*Navbar header styles*/
+
 .header-color {
-    background: #e03c31 !important;
+    background: #34678C !important;
 }
 
 .mdl-layout__drawer-button {
-    background-image: url(https://i.ibb.co/VNLp8zM/logo-VLIteracion.png);
+    background-image: url(https://i.ibb.co/7WQQC1N/melted-Rubik.png);
     background-repeat: no-repeat;
     background-position: 0% 50%;
-    background-size: 12rem;
-    width: 15rem !important;
+    background-size: 8rem;
+    width: 12rem !important;
 }
 
 /*Home button*/
@@ -81,10 +83,7 @@ ul {
     position: absolute;
     top: 0 !important;
     bottom: 0;
-    /* left: -45%; */
-    /* right: inherit; */
-    
-    width: 100%;
+    width: 75%;
     background-color: #E8EAE1;
     transform: skewX(-25deg) translateX(0);
     /* transition: all 500ms ease-out; */
@@ -103,15 +102,15 @@ ul {
     margin: 0.2rem 1.3rem 0.2rem 1rem !important;
     background-color: white !important;
 }
-
+/*Mi foto de perfil*/
 .card-title, .mdl-card__title {
     display: flex !important;
     justify-content: flex-end !important;
     background-color: #E8EAE1 ;
-    background-image: url(https://i.ibb.co/0ZQgcxK/vianeylara-1-1.jpg);
+    background-image: url(https://i.ibb.co/X30L1D2/Vinicia-Photo-Ago21.jpg);
     background-size: 15rem;
     background-repeat: no-repeat;
-    background-position: 5% 50%;
+    background-position: 0% 50%;
 }
 
 .mdl-card__supporting-text {
@@ -143,7 +142,7 @@ ul {
     }
 
     .fa-home {
-        background-color: #e03c31 !important
+        background-color: #34678C !important
     }
 
 .fa-map-marker-alt, .fa-clock, .fa-mail-bulk, .presentation-icon{
@@ -162,12 +161,12 @@ ul {
     margin-top: .5rem;
 }
 
-.container-aboutme, p {
+/*.container-aboutme, p {
     margin: 1rem;
     padding: 1rem;
     text-align: justify;
     letter-spacing: unset;
-}
+}*/
 
 .aboutme-tabs {
     background-color: #E8EAE1;
@@ -244,5 +243,10 @@ ul {
 
 .project-button {
     background-color: #e03c31 !important;
+}
+
+.mdl-layout__header-row {
+    display: flex;
+    flex-direction: row-reverse !important;
 }
 
