@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portafolioReact/static/css/main.30845cde.chunk.css",
+    "main.css": "/portafolioReact/static/css/main.a9cbf249.chunk.css",
     "main.js": "/portafolioReact/static/js/main.c73cd6f8.chunk.js",
     "main.js.map": "/portafolioReact/static/js/main.c73cd6f8.chunk.js.map",
     "runtime-main.js": "/portafolioReact/static/js/runtime-main.2cb0c713.js",
@@ -10,7 +10,7 @@
     "static/js/2.ef761bc3.chunk.js.map": "/portafolioReact/static/js/2.ef761bc3.chunk.js.map",
     "index.html": "/portafolioReact/index.html",
     "static/css/2.2fcc896a.chunk.css.map": "/portafolioReact/static/css/2.2fcc896a.chunk.css.map",
-    "static/css/main.30845cde.chunk.css.map": "/portafolioReact/static/css/main.30845cde.chunk.css.map",
+    "static/css/main.a9cbf249.chunk.css.map": "/portafolioReact/static/css/main.a9cbf249.chunk.css.map",
     "static/js/2.ef761bc3.chunk.js.LICENSE.txt": "/portafolioReact/static/js/2.ef761bc3.chunk.js.LICENSE.txt",
     "static/media/VianeyLara_CVAgo21.e29c7077.pdf": "/portafolioReact/static/media/VianeyLara_CVAgo21.e29c7077.pdf",
     "static/media/autoaprendizajeIcon.0be38500.png": "/portafolioReact/static/media/autoaprendizajeIcon.0be38500.png",
@@ -31,7 +31,7 @@
     "static/js/runtime-main.2cb0c713.js",
     "static/css/2.2fcc896a.chunk.css",
     "static/js/2.ef761bc3.chunk.js",
-    "static/css/main.30845cde.chunk.css",
+    "static/css/main.a9cbf249.chunk.css",
     "static/js/main.c73cd6f8.chunk.js"
   ]
 }
