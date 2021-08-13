@@ -17,7 +17,7 @@ class PersonalCard extends React.Component {
                                 <p className="presentation-icon">CDMX</p>
                             </i>
                             <i className="fas fa-clock">
-                                <p className="presentation-icon">29 años</p>
+                                <p className="presentation-icon">30 años</p>
                             </i>
                             <i className="fas fa-mail-bulk">
                                 <p className="presentation-icon">vianey.lara.rangel@gmail.com</p>

@@ -37,7 +37,7 @@ class ProjectCard extends React.Component {
                             <img src={firebase} alt="tecnologias-logo" className="img-tech"></img>
                         </CardText>
                         <CardActions>
-                            <Button colored className="project-button" href="https://eriika19.github.io/MEX008-FE-Burger-Queen/" target="_blank">
+                            <Button colored className="project-button" href="https://vianeylararangel.github.io/MEX008-FE-Burger-Queen/" target="_blank">
                                 DEMO
                             </Button>
                             <Button colored className="project-button" href="https://github.com/VianeyLaraRangel/MEX008-FE-Burger-Queen" target="_blank">
