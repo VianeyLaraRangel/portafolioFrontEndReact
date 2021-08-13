@@ -163,8 +163,8 @@ ul {
 }
 
 .container-aboutme, p {
-    margin: 1rem;
-    padding: 1rem;
+   /* margin: 1rem;
+    padding: 1rem;*/
     text-align: justify;
     letter-spacing: unset;
 }
