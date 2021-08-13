@@ -174,7 +174,7 @@ ul {
 }
 
 .mdl-tabs__tab-bar {
-    background-color: #383536;
+    background-color: #34678C;
     height: 3rem !important;
 }
 
@@ -223,5 +223,14 @@ ul {
 
 .project-button {
     background-color: #e03c31 !important;
+}
+
+ /*Contact view styles*/
+ .contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: skewX(25deg) translateX(0)
 }
 

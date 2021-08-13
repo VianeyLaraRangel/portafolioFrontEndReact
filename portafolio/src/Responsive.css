@@ -139,7 +139,7 @@ Less grey #9F9F9F*/
         width: 3rem;
         justify-content: center;
         align-self: flex-end;
-        color: #e03c31 !important;
+        color: #34678C !important;
         background-color: transparent;
     }
     /*AboutMe styles*/
@@ -193,6 +193,7 @@ Less grey #9F9F9F*/
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        transform: skewX(0deg) translateX(0)
     }
     .contact-box p {
         text-align: center;
@@ -200,7 +201,6 @@ Less grey #9F9F9F*/
     .contact-buttons {
         display: flex;
         flex-direction: column;
-        background-color: #383536;
     }
     .contact-item {
         margin: .4rem !important;

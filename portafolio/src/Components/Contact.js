@@ -5,6 +5,7 @@ import { FABButton } from 'react-mdl';
 class Contact extends Component {
     render() {
         return (
+         <div className="hero-slash">
             <div className="contact-box">
                 <section>
                     <p>¿Buscas una desarrolladora o tienes
@@ -58,6 +59,7 @@ class Contact extends Component {
                     </FABButton>
                 </section>
             </div>
+        </div>    
         );
     }
 }

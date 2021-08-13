@@ -27,13 +27,15 @@ class PersonalCard extends React.Component {
                     <CardText className="presentation-box">
                         <div className="presentation-text">
                             <p>
-                                Analista incansable y autodidacta, ante el panorama de la transformación digital,
-                                    decidí comenzar una carrera en tecnología.
-                                Encontré en la programación web, la oportunidad de aplicar la creatividad,
-                                    persistencia e ideación constante con la que cuento.
-                         <strong> Te invito a conocer más de lo que he hecho </strong>
+                                Ante el panorama de la transformación digital, decidí
+                                seguir aprendiendo, fue así que me acerqué a la
+                                tecnología, en dónde desarrolle la cultura que me
+                                permite estar al servicio de otros para solucionar con
+                                propósito y a propósito. Busco colaborar para
+                                entender el problema y así gestionar el cambio.
+                                <strong> Te invito a conocer más de lo que he hecho </strong>
                                 y así encontrar juntxs la forma de
-                         <strong> colaborar profesionalmente.</strong>
+                                <strong> colaborar profesionalmente.</strong>
                             </p>
                         </div>
                         <div className="box-logo">
